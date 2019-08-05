@@ -1,77 +1,11 @@
-    .bg-blue {
-        background-color: #040a37;
-    }
-    
-    .activecolor {
-        color: rgb(52, 211, 187) !important;
-    }
-    
-    .navbar-text {
-        font-size: 12px;
-    }
-    
-    nav {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-weight: lighter;
-        letter-spacing: 1px;
-    }
-    
-    .nav-link {
-        color: white;
-    }
-    
-    .navbar-brand {
-        color: white;
-    }
-    
-    .navbar-brand:hover {
-        color: rgb(52, 211, 187);
-    }
-    
-    .nav-link:hover {
-        color: rgb(52, 211, 187);
-    }
-    
-    .text-box {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-weight: 200;
-        background-color: #040a37;
-        color: white;
-        letter-spacing: 1px;
-        margin: 10px;
-        font-size: 18px;
-        text-align: center;
-    }
-    
-    .text-box-title {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-weight: 200;
-        background-color: #040a37;
-        letter-spacing: 1px;
-        margin: 10px;
-        margin-top: 10%;
-        text-align: center;
-    }
-    
-    .text-normal {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-weight: 100;
-        background-color: #040a37;
-        color: white;
-        letter-spacing: 1px;
-        font-size: 18px;
-    }
+    /* --------->General<-----------*/
     
     body {
+        background-color: #040a37;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-weight: 200;
-        background-color: #040a37;
         color: white;
         letter-spacing: 1px;
-    }
-    
-    h4 {
-        font-weight: 100;
     }
     
     header {
@@ -82,6 +16,61 @@
         background-color: rgb(52, 211, 187)
     }
     
+    .bg-blue {
+        background-color: #040a37;
+    }
+    /* --------->Fonts<-----------*/
+    /* --------->Fonts: Section Headings WORK<-----------*/
+    
+    .customfont_small {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 100;
+        color: white;
+        letter-spacing: 1px;
+        font-size: 16px;
+    }
+    
+    .customfont_medium {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 200;
+        color: white;
+        letter-spacing: 1px;
+        font-size: 24px;
+    }
+    
+    .customfont_large {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 200;
+        color: white;
+        letter-spacing: 1px;
+        font-size: 32px;
+    }
+    /* --------->Text Formatting<-----------*/
+    /* --------->Text: Section Headings WORK<-----------*/
+    
+    .title1 {
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    
+    .title2 {
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+    /* --------->Text: Box Content SHOP<-----------*/
+    
+    .text-box {
+        margin: 10px;
+        text-align: center;
+    }
+    
+    .text-box-title {
+        margin: 10px;
+        margin-top: 10%;
+        text-align: center;
+    }
+    /* --------->Links<-----------*/
+    
     .text-link {
         color: rgb(52, 211, 187);
     }
@@ -89,6 +78,40 @@
     .text-link:hover {
         color: rgb(32, 147, 129);
     }
+    /* --------->Navigation (overwrite BT4)<-----------*/
+    
+    nav {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: lighter;
+        letter-spacing: 1px;
+    }
+    
+    .activecolor {
+        color: rgb(52, 211, 187) !important;
+    }
+    
+    .navbar-text {
+        font-size: 16px;
+    }
+    
+    .nav-link {
+        color: white;
+        font-size: 16px;
+    }
+    
+    .navbar-brand {
+        color: white;
+        font-size: 24px;
+    }
+    
+    .navbar-brand:hover {
+        color: rgb(52, 211, 187);
+    }
+    
+    .nav-link:hover {
+        color: rgb(52, 211, 187);
+    }
+    /* --------->Footer<-----------*/
     
     .page-footer {
         padding-left: 5px;
@@ -140,6 +163,14 @@
         color: rgb(52, 211, 187);
     }
     
+    .backtotop {
+        color: rgb(52, 211, 187);
+    }
+    
+    .backtotop:hover {
+        color: rgb(32, 147, 129);
+    }
+    
     .footer-icon:hover {
         color: rgb(32, 147, 129);
     }
@@ -165,6 +196,7 @@
     .showonhover:hover {
         display: inline-block;
     }
+    /* --------->IMAGE GALLERY<-----------*/
     /* Custom Gutter */
     
     .gutter-small.row {
@@ -226,17 +258,17 @@
     .overlay-text {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-align: center;
-        padding-top: 30%;
-        font-weight: 300;
-        font-size: 24px;
+        padding-top: 0%;
+        font-weight: 200;
+        font-size: 32px;
         letter-spacing: 1px;
         color: white;
     }
     
     .overlay-date {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-weight: 400;
+        font-weight: 200;
         color: rgb(52, 211, 187);
-        font-size: 16px;
+        font-size: 24px;
         letter-spacing: 1px;
     }
