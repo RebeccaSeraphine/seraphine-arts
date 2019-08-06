@@ -13,7 +13,7 @@
     }
     
     hr {
-        background-color: rgb(52, 211, 187)
+        background-color: rgb(52, 211, 187);
     }
     
     .bg-blue {
@@ -56,18 +56,6 @@
     .title2 {
         margin-bottom: 20px;
         margin-top: 50px;
-    }
-    /* --------->Text: Box Content SHOP<-----------*/
-    
-    .text-box {
-        margin: 10px;
-        text-align: center;
-    }
-    
-    .text-box-title {
-        margin: 10px;
-        margin-top: 10%;
-        text-align: center;
     }
     /* --------->Links<-----------*/
     
