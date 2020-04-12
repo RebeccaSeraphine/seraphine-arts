@@ -93,6 +93,18 @@ hr {
 .text-link:hover {
   color: rgb(32, 147, 129);
 }
+
+.shop-header-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.shop-header-link:hover {
+  color: #fff;
+  color: rgb(32, 147, 129);
+  text-decoration: none;
+}
+
 /* --------->Navigation<-----------*/
 
 nav {
