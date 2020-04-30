@@ -1,8 +1,6 @@
-$(document).ready(function() {
-    $('.carousel').carousel('pause');
+$(document).ready(function () {
+  $(".carousel").carousel("pause");
 });
-
-console.log("hello");
 
 /* Carousel auto play
 $(document).ready(function() {
