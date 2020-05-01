@@ -85,22 +85,22 @@
     <!-----------------------Gallery Navigation------------------------>
 
     <div class="container-fluid">
-        <div class="row gutter-small gallery-navigation">
-                <a id="zentangle-animals-gallery" onclick="animalsSelected()" class="nav-link gallerynavigation-active" href="#">Zentangle Animals</a> &nbsp; <p>|</p>
-                <a id="space-travel-gallery" onclick="travelSelected()" class="nav-link" href="#">Space & Travel</a> &nbsp; <p>|</p>
-                <a id="watercolourpainting-gallery" onclick="watercolourSelected()" class="nav-link" href="#">Watercolour</a> &nbsp; <p>|</p>
-                <a id="fun-gallery" onclick="funSelected()" class="nav-link" href="#">Just for Fun</a>
+        <div class="row justify-content-md-center gallery-navigation">
+                <a id="nav-zentangle-animals-gallery" onclick="animalsSelected()" class="nav-link gallerynavigation-active" href="#">Digital Illustrations</a> 
+                <!--<a id="nav-space-travel-gallery" onclick="travelSelected()" class="nav-link" href="#">Space & Travel</a> -->
+                <a id="nav-watercolourpainting-gallery" onclick="watercolourSelected()" class="nav-link" href="#">Watercolour</a>
+                <!--<a id="nav-fun-gallery" onclick="funSelected()" class="nav-link" href="#">Just for Fun</a>-->
             </div>
         </div>
     </div> 
 
     <!-----------------------Content------------------------>
     <!-------Section 1 Title------->
-    <div class="container-fluid" id="zentangle-animals">
+    <div class="container-fluid" id="container-zentangle-animals">
         <div class="row gutter-small" id="imageGallery"></div> 
     </div> 
 
-    <script id="image-gallery" type="text/x-handlebars-template">
+    <script id="script-image-gallery" type="text/x-handlebars-template">
         {{#each images}}
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="hovereffect ">
@@ -114,11 +114,11 @@
     </script>
         
         <!-------Section 2 Watercolour------->
-    <div class="container-fluid" id="watercolour-paintings-gallery">
+    <div class="container-fluid gallery-hide" id="container-watercolour">
         <div class="row gutter-small" id="watercolourGallery"></div>
     </div> 
 
-    <script id="watercolour-gallery" type="text/x-handlebars-template">
+    <script id="script-watercolour-gallery" type="text/x-handlebars-template">
         {{#each images}}
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="hovereffect ">

@@ -1,4 +1,4 @@
-var watercolourGallery = document.getElementById("watercolour-gallery")
+var watercolourGallery = document.getElementById("script-watercolour-gallery")
   .innerHTML;
 
 var template = Handlebars.compile(watercolourGallery);

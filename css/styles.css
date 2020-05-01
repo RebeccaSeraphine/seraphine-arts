@@ -151,7 +151,9 @@ nav {
 
 .gallery-navigation .nav-link {
   font-size: 18px;
+  padding: 0 20px;
 }
+
 .gallery-navigation .nav-link:hover,
 #zentangle-animals-gallery:hover,
 #space-travel-gallery:hover,
@@ -162,11 +164,7 @@ nav {
 
 .gallery-navigation {
   font-size: 24px;
-  margin-bottom: 25px;
-}
-
-#zentangle-animals {
-  display: block;
+  margin-bottom: 35px;
 }
 
 .gallerynavigation-active {

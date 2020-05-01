@@ -1,4 +1,4 @@
-var imageGallery = document.getElementById("image-gallery").innerHTML;
+var imageGallery = document.getElementById("script-image-gallery").innerHTML;
 
 var template = Handlebars.compile(imageGallery);
 
