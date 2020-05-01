@@ -82,29 +82,23 @@
         </div>
     </header>
 
+    <!-----------------------Gallery Navigation------------------------>
+
+    <div class="container-fluid">
+        <div class="row gutter-small gallery-navigation">
+                <a id="zentangle-animals-gallery" onclick="animalsSelected()" class="nav-link gallerynavigation-active" href="#">Zentangle Animals</a> &nbsp; <p>|</p>
+                <a id="space-travel-gallery" onclick="travelSelected()" class="nav-link" href="#">Space & Travel</a> &nbsp; <p>|</p>
+                <a id="watercolourpainting-gallery" onclick="watercolourSelected()" class="nav-link" href="#">Watercolour</a> &nbsp; <p>|</p>
+                <a id="fun-gallery" onclick="funSelected()" class="nav-link" href="#">Just for Fun</a>
+            </div>
+        </div>
+    </div> 
+
     <!-----------------------Content------------------------>
-<div class="container-fluid ">
-    
-        <!-------Section 1 Title------->
-    <div class="row gutter-small">
-        <div class="col-12">
-            <h2 class="title1 customfont_large">Digital Illustration</h2>
-        </div>
-    </div>
-
-    <div class="row gutter-small" id="imageGallery"></div> 
-
-        <!-------Section 2 Watercolour------->
-    <div class="row gutter-small" id="section2">
-        <div class="col-12">
-            <h2 class="title2 customfont_large">Watercolour Painting</h2>
-        </div>
-    </div>
-
-    <div class="row gutter-small" id="watercolourGallery"></div>
-
-</div> 
-
+    <!-------Section 1 Title------->
+    <div class="container-fluid" id="zentangle-animals">
+        <div class="row gutter-small" id="imageGallery"></div> 
+    </div> 
 
     <script id="image-gallery" type="text/x-handlebars-template">
         {{#each images}}
@@ -118,6 +112,11 @@
             </div>
         {{/each}}
     </script>
+        
+        <!-------Section 2 Watercolour------->
+    <div class="container-fluid" id="watercolour-paintings-gallery">
+        <div class="row gutter-small" id="watercolourGallery"></div>
+    </div> 
 
     <script id="watercolour-gallery" type="text/x-handlebars-template">
         {{#each images}}
@@ -166,10 +165,9 @@
 
         <!-- Copyright -->
         <div class="page-footer customfont-small text-center pt-5 pb-2 ">All Artworks & Content Copyright © Seraphine Arts.<br/>All Rights Reserved.<br/>
-            <!-- Copyright -->
 
     </footer>
-    <!-- Footer -->
+
 
 
     <!-----------------------Scripts------------------------>

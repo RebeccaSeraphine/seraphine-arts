@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 hr {
@@ -21,12 +21,13 @@ hr {
 }
 
 .background-image {
-  background-image: url("../public/images/background.png");
+  background-image: url("../public/images/background.jpg");
   background-attachment: fixed;
   background-position-x: center; /*horizontal alignment*/
   background-position-y: top 0; /*vertical alignment*/
-  height: 250px;
-  margin-bottom: 100px;
+  height: 280px;
+  width: 100 px;
+  margin-bottom: 50px;
   opacity: 0.5;
   border-radius: 4px;
 }
@@ -69,6 +70,13 @@ hr {
   text-align: center;
   margin-top: -290px;
 }
+
+@media only screen and (max-width: 575px) {
+  .page-title {
+    font-size: 70px;
+  }
+}
+
 .page-title-intro {
   font-size: 24px;
 }
@@ -137,6 +145,44 @@ nav {
 
 .nav-link:hover {
   color: rgb(52, 211, 187);
+}
+
+/* Navigation accross galleries */
+
+.gallery-navigation .nav-link {
+  font-size: 18px;
+}
+.gallery-navigation .nav-link:hover,
+#zentangle-animals-gallery:hover,
+#space-travel-gallery:hover,
+#watercolour-gallery:hover,
+#fun-gallery:hover {
+  color: rgb(32, 147, 129);
+}
+
+.gallery-navigation {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+#zentangle-animals {
+  display: block;
+}
+
+.gallerynavigation-active {
+  color: rgb(52, 211, 187);
+}
+
+.gallerynavigation-not-active {
+  color: #fff;
+}
+
+.gallery-hide {
+  display: none;
+}
+
+.gallery-show {
+  display: block;
 }
 
 /* --------->Carousel<-----------*/
