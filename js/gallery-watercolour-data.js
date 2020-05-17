@@ -24,29 +24,30 @@ var watercolourData = template({
       src: "public/images/gallery/seahorse-guardian.jpg",
       alt: "seahorse woman watercolour",
     },
+    // Single
     {
-      name: "Bamboo Forest",
+      name: "Vietnamese Dancer",
       date: "2019",
-      src: "public/images/gallery/bamboo-forest.jpg",
-      alt: "bamboo watercolor painting",
+      src: "public/images/gallery/vietnamese-girl.jpg",
+      alt: "dancing vietnamese girl painting",
     },
     // Patterns of Nature
     {
       name: "Patterns of Nature - Lion",
       date: "2018",
-      src: "public/images/gallery/lion-art.jpg",
+      src: "public/images/gallery/lion.jpg",
       alt: "lion watercolour",
     },
     {
       name: "Patterns of Nature - Wolf",
       date: "2018",
-      src: "public/images/gallery/wolf-art.jpg",
+      src: "public/images/gallery/wolf.jpg",
       alt: "wolf watercolour",
     },
     {
       name: "Patterns of Nature - Monkey",
       date: "2018",
-      src: "public/images/gallery/monkey-art.jpg",
+      src: "public/images/gallery/monkey.jpg",
       alt: "monkey watercolour",
     },
     {
@@ -54,6 +55,13 @@ var watercolourData = template({
       date: "2018",
       src: "public/images/gallery/monstera-leaf.jpg",
       alt: "monstera watercolour painting",
+    },
+    // Single
+    {
+      name: "Bamboo Forest",
+      date: "2019",
+      src: "public/images/gallery/bamboo-forest.jpg",
+      alt: "bamboo watercolor painting",
     },
   ],
 });
