@@ -20,7 +20,7 @@ var imageData = template({
     {
       name: "Elephant Warrior",
       date: "2020",
-      src: "public/images/gallery/warrior-elephant.jpg",
+      src: "public/images/gallery/elephant-warrior.jpg",
       alt: "mandala elephant digital illustration by Seraphine Arts",
     },
     {
@@ -33,7 +33,7 @@ var imageData = template({
     {
       name: "Chinese New Year",
       date: "2020",
-      src: "public/images/gallery/chinese-zodiac-mouse.jpg",
+      src: "public/images/gallery/chinese-mouse.jpg",
       alt: "chinese zodiac rat art",
     },
     // Animal Alliterations
@@ -75,11 +75,12 @@ var imageData = template({
       src: "public/images/gallery/cat-love.jpg",
       alt: "colourful cat art",
     },
+
     {
-      name: "Colourful Butterfly",
+      name: "Jumping Deer",
       date: "2018",
-      src: "public/images/gallery/colourful-butterfly.jpg",
-      alt: "zentangle butterfly",
+      src: "public/images/gallery/jumping-deer.jpg",
+      alt: "jumping deer illustration",
     },
     {
       name: "Arctic Tern",
@@ -88,10 +89,10 @@ var imageData = template({
       alt: "flying bird illustration",
     },
     {
-      name: "Jumping Deer",
+      name: "Colourful Butterfly",
       date: "2018",
-      src: "public/images/gallery/jumping-deer.jpg",
-      alt: "jumping deer illustration",
+      src: "public/images/gallery/colourful-butterfly.jpg",
+      alt: "zentangle butterfly",
     },
   ],
 });
