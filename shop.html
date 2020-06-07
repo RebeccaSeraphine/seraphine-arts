@@ -97,8 +97,7 @@
             <div class="row gutter-small">
 
               
-
-                <div id='collection-component-1591374536491'></div>
+              <div id='collection-component-1591544411116'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 (function () {
@@ -127,7 +126,7 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('collection', {
         id: '199908032679',
-        node: document.getElementById('collection-component-1591374536491'),
+        node: document.getElementById('collection-component-1591544411116'),
         moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
         options: {
   "product": {
@@ -158,8 +157,8 @@
           "background-color": "#2fbea8"
         },
         "border-radius": "5px",
-        "padding-left": "20px",
-        "padding-right": "20px"
+        "padding-left": "19px",
+        "padding-right": "19px"
       },
       "quantityInput": {
         "font-size": "16px",
@@ -185,8 +184,12 @@
         "color": "#ffffff"
       }
     },
+    "buttonDestination": "modal",
+    "contents": {
+      "options": false
+    },
     "text": {
-      "button": "Add to cart"
+      "button": "View product"
     },
     "googleFonts": [
       "Roboto"
@@ -229,13 +232,22 @@
           "background-color": "#2fbea8"
         },
         "border-radius": "5px",
-        "padding-left": "20px",
-        "padding-right": "20px"
+        "padding-left": "19px",
+        "padding-right": "19px"
       },
       "quantityInput": {
         "font-size": "16px",
         "padding-top": "16px",
         "padding-bottom": "16px"
+      },
+      "price": {
+        "font-weight": "bold"
+      },
+      "compareAt": {
+        "font-weight": "bold"
+      },
+      "unitPrice": {
+        "font-weight": "bold"
       }
     },
     "googleFonts": [
@@ -244,19 +256,6 @@
     "text": {
       "button": "Add to cart"
     }
-  },
-  "option": {
-    "styles": {
-      "label": {
-        "font-family": "Roboto, sans-serif"
-      },
-      "select": {
-        "font-family": "Roboto, sans-serif"
-      }
-    },
-    "googleFonts": [
-      "Roboto"
-    ]
   },
   "cart": {
     "styles": {
