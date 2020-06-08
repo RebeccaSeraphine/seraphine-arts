@@ -43,7 +43,6 @@ hr {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 100;
   color: white;
-
   font-size: 20px;
   text-align: center;
 }
@@ -54,6 +53,18 @@ hr {
   color: white;
   letter-spacing: 1px;
   font-size: 32px;
+}
+.impressum-title {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.impressum-text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 100;
+  color: white;
+  font-size: 20px;
 }
 /* --------->Text Formatting<-----------*/
 /* --------->Text: Section Headings WORK<-----------*/
