@@ -311,9 +311,3 @@ nav {
   font-size: 24px;
   letter-spacing: 1px;
 }
-
-/* Shopify */
-
-.shopify-buy__btn--close {
-  outline: none;
-}
