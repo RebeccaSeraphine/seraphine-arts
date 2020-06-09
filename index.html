@@ -99,16 +99,45 @@
     <script id="script-main-gallery" type="text/x-handlebars-template">
         {{#each images}}
             <div class="col-12 col-sm-6 col-lg-3">
-                <div class="hovereffect ">
+                <div class="hovereffect">
                     <img class="img-responsive img-fluid mb-3 rounded " src={{src}} alt="{{alt}}">
-                    <div class="overlay rounded ">
+                    <div class="overlay rounded" data-toggle="modal" data-target="#modal-{{id}}">
                         <p class="customfont_large">{{name}} </br><span class="overlay-date">- {{date}} -</span></p>
                     </div>
                 </div>
             </div>
         {{/each}}
     </script>
-    
+
+    <div id="div-modalViews"></div> 
+    <script id="script-modal-views" type="text/x-handlebars-template">
+        {{#each images}}
+            <!-- Modal -->
+            <div class="modal fade" id="modal-{{id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title">{{name}}</h5>                 
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        
+                        <img class="img-responsive img-fluid mb-3 rounded " src={{src}} alt="{{alt}}">
+                    </div>
+                    <!--
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>-->
+                </div>
+                </div>
+            </div>
+        {{/each}}
+    </script>
+
+
     <!-------Section 2 Travel & Space-----
     <div class="container-fluid gallery-hide" id="container-travel">
         <div class="row gutter-small" id="travelGallery"></div>
@@ -196,6 +225,7 @@
     <script src="js/handlebars.min-v4.7.6.js"></script>
     <script src="js/gallery-main-data.js"></script>
     <script src="js/gallery-watercolour-data.js"></script>
+    <script src="js/gallery-main-modal-views.js"></script>
 
 </body>
 

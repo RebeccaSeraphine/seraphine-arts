@@ -1,8 +1,8 @@
-var imageGallery = document.getElementById("script-main-gallery").innerHTML;
+var modalViews = document.getElementById("script-modal-views").innerHTML;
 
-var template = Handlebars.compile(imageGallery);
+var template = Handlebars.compile(modalViews);
 
-var imageData = template({
+var modalData = template({
   images: [
     // Spirit Animals
     {
@@ -111,4 +111,4 @@ var imageData = template({
   ],
 });
 
-document.getElementById("imageGallery").innerHTML += imageData;
+document.getElementById("div-modalViews").innerHTML += modalData;
