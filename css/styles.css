@@ -147,6 +147,12 @@ nav {
   font-size: 16px;
 }
 
+@media only screen and (max-width: 991px) {
+  .navbar-text-container {
+    display: none;
+  }
+}
+
 .nav-link {
   color: white;
   font-size: 16px;
@@ -163,6 +169,10 @@ nav {
 
 .nav-link:hover {
   color: rgb(52, 211, 187);
+}
+
+.nav-social-media {
+  display: inline-flex;
 }
 
 /* Navigation accross galleries */
