@@ -314,9 +314,11 @@ nav {
 
 /* Custom Gutter */
 
-.modal-content {
-  margin-left: -25%;
-  width: 150% !important;
+@media only screen and (min-width: 763px) {
+  .modal-content {
+    margin-left: -10%;
+    width: 120% !important;
+  }
 }
 
 .modal-header {
