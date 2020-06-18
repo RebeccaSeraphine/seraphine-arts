@@ -6,6 +6,13 @@ var modalData = template({
   images: [
     // Spirit Animals
     {
+      name: "Cat Princess",
+      date: "2020",
+      src: "public/images/gallery/cat-princess.jpg",
+      alt: "zentangle style illustration of a cat with colourful fur by Seraphine Arts",
+      id: "catPrincess",
+    },
+    {
       name: "Manta Scout",
       date: "2020",
       src: "public/images/gallery/manta-scout.jpg",
