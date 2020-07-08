@@ -6,6 +6,20 @@ var imageData = template({
   images: [
     // Spirit Animals
     {
+      name: "Waterbuffalo Chief",
+      date: "2020",
+      src: "public/images/gallery/waterbuffalo-chief.jpg",
+      alt: "zentangle style illustration of a waterbuffalo by Seraphine Arts",
+      id: "waterbuffaloChief",
+    },
+    {
+      name: "Coyote Mage",
+      date: "2020",
+      src: "public/images/gallery/coyote-mage.jpg",
+      alt: "colorful, zentangle style artwork of a coyote by Seraphine Arts",
+      id: "coyoteMage",
+    },
+    {
       name: "Cat Princess",
       date: "2020",
       src: "public/images/gallery/cat-princess.jpg",
