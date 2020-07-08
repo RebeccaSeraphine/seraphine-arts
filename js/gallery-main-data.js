@@ -6,7 +6,7 @@ var imageData = template({
   images: [
     // Spirit Animals
     {
-      name: "Waterbuffalo Chief",
+      name: "Water Buffalo Chief",
       date: "2020",
       src: "public/images/gallery/waterbuffalo-chief.jpg",
       alt: "zentangle style illustration of a waterbuffalo by Seraphine Arts",
