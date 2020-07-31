@@ -6,6 +6,13 @@ var modalData = template({
   images: [
     // Spirit Animals
     {
+      name: "Eagle Knight",
+      date: "2020",
+      src: "public/images/gallery/eagle-knight.jpg",
+      alt: "eagle spirit animal by Seraphine Arts",
+      id: "eagleKnight",
+    },
+    {
       name: "Water Buffalo Chief",
       date: "2020",
       src: "public/images/gallery/waterbuffalo-chief.jpg",
