@@ -97,14 +97,220 @@
           <div id="printsGalleryTitle" class="container-fluid secondarypages-description gallery-hide">
               <div class="row gutter-small">
                   <div class="col-12">
-                      <p class="customfont_medium"> Fine Art Prints. Durable Glicée prints on Canson Aquarell paper. Available in five different sizes.</p>
+                      <p class="customfont_medium">Durable Glicée prints on Canson Aquarell paper. Available in five different sizes.</p>
                   </div>
               </div>
           </div>
 
-          <!-----------------------Products------------------------>
-
-
+          <!-----------------------Books------------------------>
+          <div class="container-fluid">
+            <div class="row gutter-small" id="booksGallery">
+              <div id='product-component-1605627579273'></div>
+              <script type="text/javascript">
+              /*<![CDATA[*/
+              (function () {
+                var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+                if (window.ShopifyBuy) {
+                  if (window.ShopifyBuy.UI) {
+                    ShopifyBuyInit();
+                  } else {
+                    loadScript();
+                  }
+                } else {
+                  loadScript();
+                }
+                function loadScript() {
+                  var script = document.createElement('script');
+                  script.async = true;
+                  script.src = scriptURL;
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                  script.onload = ShopifyBuyInit;
+                }
+                function ShopifyBuyInit() {
+                  var client = ShopifyBuy.buildClient({
+                    domain: 'seraphine-arts.myshopify.com',
+                    storefrontAccessToken: '867da578c0bcbd241ebe3fd17af7cf11',
+                  });
+                  ShopifyBuy.UI.onReady(client).then(function (ui) {
+                    ui.createComponent('product', {
+                      id: '6052687478951',
+                      node: document.getElementById('product-component-1605627579273'),
+                      moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
+                      options: {
+                "product": {
+                  "styles": {
+                    "product": {
+                      "@media (min-width: 601px)": {
+                        "max-width": "calc(25% - 20px)",
+                        "margin-left": "20px",
+                        "margin-bottom": "50px"
+                      }
+                    },
+                    "title": {
+                      "font-weight": "normal",
+                      "color": "#ffffff"
+                    },
+                    "button": {
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px",
+                      ":hover": {
+                        "background-color": "#2fbea8"
+                      },
+                      "background-color": "#34d3bb",
+                      ":focus": {
+                        "background-color": "#2fbea8"
+                      },
+                      "border-radius": "5px",
+                      "padding-left": "18px",
+                      "padding-right": "18px"
+                    },
+                    "quantityInput": {
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px"
+                    },
+                    "price": {
+                      "font-weight": "bold",
+                      "font-size": "16px",
+                      "color": "#ffffff"
+                    },
+                    "compareAt": {
+                      "font-weight": "bold",
+                      "font-size": "13.6px",
+                      "color": "#ffffff"
+                    },
+                    "unitPrice": {
+                      "font-weight": "bold",
+                      "font-size": "13.6px",
+                      "color": "#ffffff"
+                    },
+                    "description": {
+                      "color": "#ffffff"
+                    }
+                  },
+                  "buttonDestination": "modal",
+                  "contents": {
+                    "options": false
+                  },
+                  "width": "380px",
+                  "text": {
+                    "button": "View product"
+                  }
+                },
+                "productSet": {
+                  "styles": {
+                    "products": {
+                      "@media (min-width: 601px)": {
+                        "margin-left": "-20px"
+                      }
+                    }
+                  }
+                },
+                "modalProduct": {
+                  "contents": {
+                    "img": false,
+                    "imgWithCarousel": true,
+                    "button": false,
+                    "buttonWithQuantity": true
+                  },
+                  "styles": {
+                    "product": {
+                      "@media (min-width: 601px)": {
+                        "max-width": "100%",
+                        "margin-left": "0px",
+                        "margin-bottom": "0px"
+                      }
+                    },
+                    "button": {
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px",
+                      ":hover": {
+                        "background-color": "#2fbea8"
+                      },
+                      "background-color": "#34d3bb",
+                      ":focus": {
+                        "background-color": "#2fbea8"
+                      },
+                      "border-radius": "5px",
+                      "padding-left": "18px",
+                      "padding-right": "18px"
+                    },
+                    "quantityInput": {
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px"
+                    },
+                    "title": {
+                      "font-weight": "normal"
+                    },
+                    "price": {
+                      "font-weight": "bold",
+                      "font-size": "16px"
+                    },
+                    "compareAt": {
+                      "font-weight": "bold",
+                      "font-size": "13.6px"
+                    },
+                    "unitPrice": {
+                      "font-weight": "bold",
+                      "font-size": "13.6px"
+                    }
+                  },
+                  "text": {
+                    "button": "Add to cart"
+                  }
+                },
+                "cart": {
+                  "styles": {
+                    "button": {
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px",
+                      ":hover": {
+                        "background-color": "#2fbea8"
+                      },
+                      "background-color": "#34d3bb",
+                      ":focus": {
+                        "background-color": "#2fbea8"
+                      },
+                      "border-radius": "5px"
+                    }
+                  },
+                  "text": {
+                    "total": "Subtotal",
+                    "button": "Checkout"
+                  },
+                  "popup": false
+                },
+                "toggle": {
+                  "styles": {
+                    "toggle": {
+                      "background-color": "#34d3bb",
+                      ":hover": {
+                        "background-color": "#2fbea8"
+                      },
+                      ":focus": {
+                        "background-color": "#2fbea8"
+                      }
+                    },
+                    "count": {
+                      "font-size": "16px"
+                    }
+                  }
+                }
+              },
+                    });
+                  });
+                }
+              })();
+              /*]]>*/
+              </script>
+            </div>
+          </div>
+          
+          <!-----------------------Prints------------------------>
           <div class="container-fluid">
               <div class="row gutter-small shopify-hide" id="printsGalleryProducts">
                 <div id='collection-component-1591635650412'></div>
@@ -309,9 +515,6 @@
 
               </div>
           </div>
-
-
-
 
     <footer class="page-footer bg-blue ">
         <div class="container-fluid text-md-left ">
