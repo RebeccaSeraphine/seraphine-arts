@@ -114,7 +114,7 @@ function booksSelected() {
   books.className = "nav-link gallerynavigation-active";
   prints.className = "nav-link gallerynavigation-not-active";
   printsGalleryTitle.className = "container-fluid secondarypages-description gallery-hide";
-  printsGalleryProducts.className = "container-fluid shopify-hide";
+  printsGalleryProducts.className = "row gutter-small shopify-hide";
   //booksGallery.className = "gallery-show";
 }
 
@@ -129,5 +129,5 @@ function printsSelected() {
   books.className = "nav-link gallerynavigation-not-active";
   //booksGallery.className = "gallery-hide";
   printsGalleryTitle.className = "container-fluid secondarypages-description gallery-show";
-  printsGalleryProducts.className = "container-fluid gallery-show";
+  printsGalleryProducts.className = "row gutter-small gallery-show";
 }
