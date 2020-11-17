@@ -206,6 +206,10 @@ nav {
 .gallery-hide {
   display: none;
 }
+.shopify-hide {
+  height: 0;
+  width: 0;
+}
 
 .gallery-show {
   display: block;
