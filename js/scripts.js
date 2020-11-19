@@ -13,9 +13,7 @@ $(document).ready(function() {
 // Sub-Navigation for Gallery view
 
 function animalsSelected() {
-  var zentangleAnimals = document.getElementById(
-    "nav-zentangle-animals-gallery"
-  );
+  var zentangleAnimals = document.getElementById("nav-zentangle-animals-gallery");
   // var spaceTravel = document.getElementById("nav-space-travel-gallery");
   var watercolour = document.getElementById("nav-watercolourpainting-gallery");
   // var justForFun = document.getElementById("nav-fun-gallery");
@@ -61,9 +59,7 @@ function animalsSelected() {
 // }
 
 function watercolourSelected() {
-  var zentangleAnimals = document.getElementById(
-    "nav-zentangle-animals-gallery"
-  );
+  var zentangleAnimals = document.getElementById("nav-zentangle-animals-gallery");
   // var spaceTravel = document.getElementById("nav-space-travel-gallery");
   var watercolour = document.getElementById("nav-watercolourpainting-gallery");
   // var justForFun = document.getElementById("nav-fun-gallery");
@@ -107,3 +103,31 @@ function watercolourSelected() {
 //   sideprojectsGallery.className = "container-fluid gallery-show";
 //   travelGallery.className = "container-fluid gallery-hide";
 // }
+
+function booksSelected() {
+  var books = document.getElementById("nav-shop-books");
+  var prints = document.getElementById("nav-shop-prints");
+  var booksGallery = document.getElementById("booksGallery");
+  var printsGalleryTitle = document.getElementById("printsGalleryTitle");
+  var printsGalleryProducts = document.getElementById("printsGalleryProducts");
+
+  books.className = "nav-link gallerynavigation-active";
+  prints.className = "nav-link gallerynavigation-not-active";
+  printsGalleryTitle.className = "container-fluid secondarypages-description gallery-hide";
+  printsGalleryProducts.className = "row gutter-small shopify-hide";
+  booksGallery.className = "row gutter-small justify-content-center";
+}
+
+function printsSelected() {
+  var books = document.getElementById("nav-shop-books");
+  var prints = document.getElementById("nav-shop-prints");
+  var booksGallery = document.getElementById("booksGallery");
+  var printsGalleryTitle = document.getElementById("printsGalleryTitle");
+  var printsGalleryProducts = document.getElementById("printsGalleryProducts");
+
+  prints.className = "nav-link gallerynavigation-active";
+  books.className = "nav-link gallerynavigation-not-active";
+  booksGallery.className = "row gutter-small justify-content-center shopify-hide";
+  printsGalleryTitle.className = "container-fluid secondarypages-description gallery-show";
+  printsGalleryProducts.className = "row gutter-small gallery-show";
+}

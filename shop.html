@@ -67,240 +67,458 @@
 
     <!-----------------------Header------------------------>
     <header>
-        <div class="container-fluid">
-
-            <div class="row gutter-small">
-                <div class="col-12">
-                    <h2 class="secondarypages-titel">Fine Art Prints</h2>
-                </div>
+      <div class="container-fluid">
+          <div class="background-image">
+              <!--see CSS for background image-->
+          </div>
+          <div class="row gutter-small">
+            <div class="col-12">
+              <h2 class="page-title"><span><p class="page-title-intro">Colouring Books & Art Prints</p></span>Shop</h2>
             </div>
-        </div>
-    </header>
+          </div>
+      </div>
+  </header>
+
+  <!-----------------------Gallery Navigation------------------------>
+
+  <div class="container-fluid">
+      <div class="row justify-content-center gallery-navigation">
+              <a id="nav-shop-books" onclick="booksSelected()" class="nav-link gallerynavigation-active" href="#">Colouring Books</a> 
+
+              <a id="nav-shop-prints" onclick="printsSelected()" class="nav-link" href="#">Fine Art Prints</a>
+
+      </div>
+  </div> 
 
 
     <!-----------------------Content------------------------>
 
     <body>
+          <div id="printsGalleryTitle" class="container-fluid secondarypages-description gallery-hide">
+              <div class="row gutter-small">
+                  <div class="col-12">
+                      <p class="customfont_medium">Durable Glicée prints on Canson Aquarell paper. Available in five different sizes.</p>
+                  </div>
+              </div>
+          </div>
 
-        <div class="container-fluid secondarypages-description">
-            <div class="row gutter-small">
-                <div class="col-12">
-                    <p class="customfont_medium"> Durable Glicée prints on Canson Aquarell paper. Available in five different sizes.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-----------------------Products------------------------>
-
-
-        <div class="container-fluid">
-            <div class="row gutter-small">
-
-              
-              <div id='collection-component-1591635650412'></div>
-              <script type="text/javascript">
-              /*<![CDATA[*/
-              (function () {
-                var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-                if (window.ShopifyBuy) {
-                  if (window.ShopifyBuy.UI) {
-                    ShopifyBuyInit();
+          <!-----------------------Books------------------------>
+          <div class="container-fluid">
+            <div class="row gutter-small justify-content-center" id="booksGallery">
+              <div class="col-12">
+                <div id='collection-component-1605774985329'></div>
+                <script type="text/javascript">
+                /*<![CDATA[*/
+                (function () {
+                  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+                  if (window.ShopifyBuy) {
+                    if (window.ShopifyBuy.UI) {
+                      ShopifyBuyInit();
+                    } else {
+                      loadScript();
+                    }
                   } else {
                     loadScript();
                   }
-                } else {
-                  loadScript();
-                }
-                function loadScript() {
-                  var script = document.createElement('script');
-                  script.async = true;
-                  script.src = scriptURL;
-                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-                  script.onload = ShopifyBuyInit;
-                }
-                function ShopifyBuyInit() {
-                  var client = ShopifyBuy.buildClient({
-                    domain: 'seraphine-arts.myshopify.com',
-                    storefrontAccessToken: '867da578c0bcbd241ebe3fd17af7cf11',
-                  });
-                  ShopifyBuy.UI.onReady(client).then(function (ui) {
-                    ui.createComponent('collection', {
-                      id: '199908032679',
-                      node: document.getElementById('collection-component-1591635650412'),
-                      moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
-                      options: {
-                "product": {
-                  "styles": {
-                    "product": {
-                      "@media (min-width: 601px)": {
-                        "max-width": "calc(25% - 20px)",
-                        "margin-left": "20px",
-                        "margin-bottom": "50px",
-                        "width": "calc(25% - 20px)"
-                      }
-                    },
-                    "title": {
-                      "font-weight": "normal",
-                      "color": "#fff"
-                    },
-                    "button": {
-                      "font-size": "16px",
-                      "padding-top": "16px",
-                      "padding-bottom": "16px",
-                      ":hover": {
-                        "background-color": "#2fbea8"
-                      },
-                      "background-color": "#34d3bb",
-                      ":focus": {
-                        "background-color": "#2fbea8"
-                      },
-                      "border-radius": "5px",
-                      "padding-left": "19px",
-                      "padding-right": "19px"
-                    },
-                    "quantityInput": {
-                      "font-size": "16px",
-                      "padding-top": "16px",
-                      "padding-bottom": "16px"
-                    },
-                    "price": {
-                      "font-weight": "bold",
-                      "font-size": "16px",
-                      "color": "#fff"
-                    },
-                    "compareAt": {
-                      "font-weight": "bold",
-                      "font-size": "13.6px",
-                      "color": "#4a4a4a"
-                    },
-                    "unitPrice": {
-                      "font-weight": "bold",
-                      "font-size": "13.6px",
-                      "color": "#4a4a4a"
-                    }
-                  },
-                  "buttonDestination": "modal",
-                  "contents": {
-                    "options": false
-                  },
-                  "text": {
-                    "button": "View product"
+                  function loadScript() {
+                    var script = document.createElement('script');
+                    script.async = true;
+                    script.src = scriptURL;
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                    script.onload = ShopifyBuyInit;
                   }
-                },
-                "productSet": {
-                  "styles": {
-                    "products": {
-                      "@media (min-width: 601px)": {
-                        "margin-left": "-20px"
-                      }
-                    }
-                  }
-                },
-                "modalProduct": {
-                  "contents": {
-                    "img": false,
-                    "imgWithCarousel": true,
-                    "button": false,
-                    "buttonWithQuantity": true
-                  },
-                  "styles": {
-                    "product": {
-                      "@media (min-width: 601px)": {
-                        "max-width": "100%",
-                        "margin-left": "0px",
-                        "margin-bottom": "0px"
-                      }
-                    },
-                    "button": {
-                      "font-size": "16px",
-                      "padding-top": "16px",
-                      "padding-bottom": "16px",
-                      ":hover": {
-                        "background-color": "#2fbea8"
-                      },
-                      "background-color": "#34d3bb",
-                      ":focus": {
-                        "background-color": "#2fbea8"
-                      },
-                      "border-radius": "5px",
-                      "padding-left": "19px",
-                      "padding-right": "19px"
-                    },
-                    "quantityInput": {
-                      "font-size": "16px",
-                      "padding-top": "16px",
-                      "padding-bottom": "16px"
-                    },
-                    "title": {
-                      "font-weight": "normal",
-                      "color": "#4a4a4a"
-                    },
-                    "price": {
-                      "font-weight": "bold",
-                      "color": "#4a4a4a"
-                    },
-                    "compareAt": {
-                      "font-weight": "bold"
-                    },
-                    "unitPrice": {
-                      "font-weight": "bold"
-                    }
-                  },
-                  "text": {
-                    "button": "Add to cart"
-                  }
-                },
-                "cart": {
-                  "styles": {
-                    "button": {
-                      "font-size": "16px",
-                      "padding-top": "16px",
-                      "padding-bottom": "16px",
-                      ":hover": {
-                        "background-color": "#2fbea8"
-                      },
-                      "background-color": "#34d3bb",
-                      ":focus": {
-                        "background-color": "#2fbea8"
-                      },
-                      "border-radius": "5px"
-                    }
-                  },
-                  "text": {
-                    "total": "Subtotal",
-                    "button": "Checkout"
-                  },
-                  "popup": false
-                },
-                "toggle": {
-                  "styles": {
-                    "toggle": {
-                      "background-color": "#34d3bb",
-                      ":hover": {
-                        "background-color": "#2fbea8"
-                      },
-                      ":focus": {
-                        "background-color": "#2fbea8"
-                      }
-                    },
-                    "count": {
-                      "font-size": "16px"
-                    }
-                  }
-                }
-              },
+                  function ShopifyBuyInit() {
+                    var client = ShopifyBuy.buildClient({
+                      domain: 'seraphine-arts.myshopify.com',
+                      storefrontAccessToken: '867da578c0bcbd241ebe3fd17af7cf11',
                     });
-                  });
-                }
-              })();
-              /*]]>*/
-              </script>
-
+                    ShopifyBuy.UI.onReady(client).then(function (ui) {
+                      ui.createComponent('collection', {
+                        id: '230695862439',
+                        node: document.getElementById('collection-component-1605774985329'),
+                        moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
+                        options: {
+                  "product": {
+                    "styles": {
+                      "product": {
+                        "@media (min-width: 601px)": {
+                          "max-width": "calc(33.33333% - 30px)",
+                          "margin-left": "30px",
+                          "margin-bottom": "50px",
+                          "width": "calc(33.33333% - 30px)"
+                        }
+                      },
+                      "title": {
+                        "font-weight": "normal",
+                        "color": "#ffffff"
+                      },
+                      "button": {
+                        "font-size": "16px",
+                        "padding-top": "16px",
+                        "padding-bottom": "16px",
+                        ":hover": {
+                          "background-color": "#2fbea8"
+                        },
+                        "background-color": "#34d3bb",
+                        ":focus": {
+                          "background-color": "#2fbea8"
+                        },
+                        "border-radius": "5px",
+                        "padding-left": "19px",
+                        "padding-right": "19px"
+                      },
+                      "quantityInput": {
+                        "font-size": "16px",
+                        "padding-top": "16px",
+                        "padding-bottom": "16px"
+                      },
+                      "price": {
+                        "font-weight": "bold",
+                        "font-size": "16px",
+                        "color": "#ffffff"
+                      },
+                      "compareAt": {
+                        "font-weight": "bold",
+                        "font-size": "13.6px",
+                        "color": "#ffffff"
+                      },
+                      "unitPrice": {
+                        "font-weight": "bold",
+                        "font-size": "13.6px",
+                        "color": "#ffffff"
+                      },
+                      "description": {
+                        "color": "#ffffff"
+                      }
+                    },
+                    "buttonDestination": "modal",
+                    "contents": {
+                      "options": false
+                    },
+                    "text": {
+                      "button": "View product"
+                    }
+                  },
+                  "productSet": {
+                    "styles": {
+                      "products": {
+                        "@media (min-width: 601px)": {
+                          "margin-left": "-30px"
+                        }
+                      }
+                    }
+                  },
+                  "modalProduct": {
+                    "contents": {
+                      "img": false,
+                      "imgWithCarousel": true,
+                      "button": false,
+                      "buttonWithQuantity": true
+                    },
+                    "styles": {
+                      "product": {
+                        "@media (min-width: 601px)": {
+                          "max-width": "100%",
+                          "margin-left": "0px",
+                          "margin-bottom": "0px"
+                        }
+                      },
+                      "button": {
+                        "font-size": "16px",
+                        "padding-top": "16px",
+                        "padding-bottom": "16px",
+                        ":hover": {
+                          "background-color": "#2fbea8"
+                        },
+                        "background-color": "#34d3bb",
+                        ":focus": {
+                          "background-color": "#2fbea8"
+                        },
+                        "border-radius": "5px",
+                        "padding-left": "19px",
+                        "padding-right": "19px"
+                      },
+                      "quantityInput": {
+                        "font-size": "16px",
+                        "padding-top": "16px",
+                        "padding-bottom": "16px"
+                      },
+                      "title": {
+                        "font-weight": "normal",
+                        "color": "#4a4a4a"
+                      },
+                      "price": {
+                        "font-weight": "bold",
+                        "font-size": "16px",
+                        "color": "#4a4a4a"
+                      },
+                      "compareAt": {
+                        "font-weight": "bold",
+                        "font-size": "13.6px"
+                      },
+                      "unitPrice": {
+                        "font-weight": "bold",
+                        "font-size": "13.6px"
+                      }
+                    },
+                    "text": {
+                      "button": "Add to cart"
+                    }
+                  },
+                  "cart": {
+                    "styles": {
+                      "button": {
+                        "font-size": "16px",
+                        "padding-top": "16px",
+                        "padding-bottom": "16px",
+                        ":hover": {
+                          "background-color": "#2fbea8"
+                        },
+                        "background-color": "#34d3bb",
+                        ":focus": {
+                          "background-color": "#2fbea8"
+                        },
+                        "border-radius": "5px"
+                      }
+                    },
+                    "text": {
+                      "total": "Subtotal",
+                      "button": "Checkout"
+                    },
+                    "popup": false
+                  },
+                  "toggle": {
+                    "styles": {
+                      "toggle": {
+                        "background-color": "#34d3bb",
+                        ":hover": {
+                          "background-color": "#2fbea8"
+                        },
+                        ":focus": {
+                          "background-color": "#2fbea8"
+                        }
+                      },
+                      "count": {
+                        "font-size": "16px"
+                      }
+                    }
+                  }
+                },
+                      });
+                    });
+                  }
+                })();
+                /*]]>*/
+                </script>
+              </div>
             </div>
-        </div>
-    </body>
+          </div>
+          
+          <!-----------------------Prints------------------------>
+          <div class="container-fluid">
+              <div class="row gutter-small shopify-hide" id="printsGalleryProducts">
+                <div id='collection-component-1591635650412'></div>
+                <script type="text/javascript">
+                /*<![CDATA[*/
+                (function () {
+                  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+                  if (window.ShopifyBuy) {
+                    if (window.ShopifyBuy.UI) {
+                      ShopifyBuyInit();
+                    } else {
+                      loadScript();
+                    }
+                  } else {
+                    loadScript();
+                  }
+                  function loadScript() {
+                    var script = document.createElement('script');
+                    script.async = true;
+                    script.src = scriptURL;
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                    script.onload = ShopifyBuyInit;
+                  }
+                  function ShopifyBuyInit() {
+                    var client = ShopifyBuy.buildClient({
+                      domain: 'seraphine-arts.myshopify.com',
+                      storefrontAccessToken: '867da578c0bcbd241ebe3fd17af7cf11',
+                    });
+                    ShopifyBuy.UI.onReady(client).then(function (ui) {
+                      ui.createComponent('collection', {
+                        id: '199908032679',
+                        node: document.getElementById('collection-component-1591635650412'),
+                        moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
+                        options: {
+                  "product": {
+                    "styles": {
+                      "product": {
+                        "@media (min-width: 601px)": {
+                          "max-width": "calc(25% - 20px)",
+                          "margin-left": "20px",
+                          "margin-bottom": "50px",
+                          "width": "calc(25% - 20px)"
+                        }
+                      },
+                      "title": {
+                        "font-weight": "normal",
+                        "color": "#fff"
+                      },
+                      "button": {
+                        "font-size": "16px",
+                        "padding-top": "16px",
+                        "padding-bottom": "16px",
+                        ":hover": {
+                          "background-color": "#2fbea8"
+                        },
+                        "background-color": "#34d3bb",
+                        ":focus": {
+                          "background-color": "#2fbea8"
+                        },
+                        "border-radius": "5px",
+                        "padding-left": "19px",
+                        "padding-right": "19px"
+                      },
+                      "quantityInput": {
+                        "font-size": "16px",
+                        "padding-top": "16px",
+                        "padding-bottom": "16px"
+                      },
+                      "price": {
+                        "font-weight": "bold",
+                        "font-size": "16px",
+                        "color": "#fff"
+                      },
+                      "compareAt": {
+                        "font-weight": "bold",
+                        "font-size": "13.6px",
+                        "color": "#4a4a4a"
+                      },
+                      "unitPrice": {
+                        "font-weight": "bold",
+                        "font-size": "13.6px",
+                        "color": "#4a4a4a"
+                      }
+                    },
+                    "buttonDestination": "modal",
+                    "contents": {
+                      "options": false
+                    },
+                    "text": {
+                      "button": "View product"
+                    }
+                  },
+                  "productSet": {
+                    "styles": {
+                      "products": {
+                        "@media (min-width: 601px)": {
+                          "margin-left": "-20px"
+                        }
+                      }
+                    }
+                  },
+                  "modalProduct": {
+                    "contents": {
+                      "img": false,
+                      "imgWithCarousel": true,
+                      "button": false,
+                      "buttonWithQuantity": true
+                    },
+                    "styles": {
+                      "product": {
+                        "@media (min-width: 601px)": {
+                          "max-width": "100%",
+                          "margin-left": "0px",
+                          "margin-bottom": "0px"
+                        }
+                      },
+                      "button": {
+                        "font-size": "16px",
+                        "padding-top": "16px",
+                        "padding-bottom": "16px",
+                        ":hover": {
+                          "background-color": "#2fbea8"
+                        },
+                        "background-color": "#34d3bb",
+                        ":focus": {
+                          "background-color": "#2fbea8"
+                        },
+                        "border-radius": "5px",
+                        "padding-left": "19px",
+                        "padding-right": "19px"
+                      },
+                      "quantityInput": {
+                        "font-size": "16px",
+                        "padding-top": "16px",
+                        "padding-bottom": "16px"
+                      },
+                      "title": {
+                        "font-weight": "normal",
+                        "color": "#4a4a4a"
+                      },
+                      "price": {
+                        "font-weight": "bold",
+                        "color": "#4a4a4a"
+                      },
+                      "compareAt": {
+                        "font-weight": "bold"
+                      },
+                      "unitPrice": {
+                        "font-weight": "bold"
+                      }
+                    },
+                    "text": {
+                      "button": "Add to cart"
+                    }
+                  },
+                  "cart": {
+                    "styles": {
+                      "button": {
+                        "font-size": "16px",
+                        "padding-top": "16px",
+                        "padding-bottom": "16px",
+                        ":hover": {
+                          "background-color": "#2fbea8"
+                        },
+                        "background-color": "#34d3bb",
+                        ":focus": {
+                          "background-color": "#2fbea8"
+                        },
+                        "border-radius": "5px"
+                      }
+                    },
+                    "text": {
+                      "total": "Subtotal",
+                      "button": "Checkout"
+                    },
+                    "popup": false
+                  },
+                  "toggle": {
+                    "styles": {
+                      "toggle": {
+                        "background-color": "#34d3bb",
+                        ":hover": {
+                          "background-color": "#2fbea8"
+                        },
+                        ":focus": {
+                          "background-color": "#2fbea8"
+                        }
+                      },
+                      "count": {
+                        "font-size": "16px"
+                      }
+                    }
+                  }
+                },
+                      });
+                    });
+                  }
+                })();
+                /*]]>*/
 
+                </script>
 
+              </div>
+          </div>
 
     <footer class="page-footer bg-blue ">
         <div class="container-fluid text-md-left ">
@@ -309,7 +527,9 @@
                     <hr>
                 </div>
                 <div class="col-4">
-                    <a class="footer- float-left  backtotop " href="impressum.html">Legal Information</a>
+                  <a class="footer- float-left  backtotop " href="shipping.html">Shipping Information</a>
+                  </br>
+                  <a class="footer- float-left  backtotop " href="impressum.html">Legal Information</a>
                 </div>
                 <div class="col-4">
                     <ul class="list-unstyled list-inline text-center">
@@ -334,7 +554,7 @@
         </div>
 
         <!-- Copyright -->
-        <div class="page-footer customfont-small text-center pt-5 pb-2 ">All Artworks & Content Copyright © Seraphine Arts.<br/>All Rights Reserved.<br/>
+        <div class="page-footer customfont-small text-center pt-5 pb-2 ">© 2018 - <script>document.write(new Date().getFullYear())</script> Seraphine Arts<br/>All Rights Reserved.<br/>
 
     </footer>
 
