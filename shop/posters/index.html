@@ -100,6 +100,12 @@
         moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
         options: {
   "product": {
+    "contents":{
+      "price": "true",
+    },
+    "templates":{
+      "price": "<div><span class={{data.classes.product.price}}><p>from <b>{{data.selectedVariant.price}} €</b></p></span></div>",
+    },
     "styles": {
       "product": {
         "@media (min-width: 601px)": {
@@ -302,13 +308,15 @@
   }
 },
       });
+
     });
+
   }
 })();
+
  
 </script>
 
-  
 
             </div>
         </div><footer>
