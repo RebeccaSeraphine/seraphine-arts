@@ -1,0 +1,43 @@
+$description-width: 25rem;
+
+.single-page {
+  @media screen and (min-width: $breakpoint-02) {
+    .description {
+      display: block;
+      // position: fixed;
+      float: left;
+      width: $description-width;
+      padding: 2rem 1rem;
+    }
+
+    .single-page-image {
+      display: block;
+      margin: auto 2rem auto $description-width;
+      padding: 2rem;
+    }
+  }
+
+  .single-nav-link {
+    display: inline;
+    position: relative;
+    padding: 2rem;
+    font-size: 1.6rem;
+    
+    a > i > .tooltip {
+      font-size: 1rem;
+      visibility: hidden;
+      position: absolute;
+      top: 4rem; left:1rem;
+      padding: 0.4rem 0.4rem;
+      min-width: 8rem;
+      color: $bgColor;
+      background-color: rgba($fontColor, 0.5);
+      font-family: $fontStack;
+      border-radius: 10px;
+    }
+
+    a:hover > i > .tooltip {
+      visibility: visible;
+    }
+  }
+}

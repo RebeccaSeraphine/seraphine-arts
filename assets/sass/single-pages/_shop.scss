@@ -1,0 +1,42 @@
+#shop-page {
+  padding: 0 1rem;
+
+  #shop-categories {
+    margin-top: 2rem;
+    &>a {
+      max-width: 98%;
+      img {
+        width: 100%;
+        max-width: 30rem;
+      }
+      p {
+        margin-bottom: 2rem;
+      }
+    }
+    @media screen and (min-width: $breakpoint-02) {
+      display: flex;
+      justify-content: center;
+      &>a {
+        width: 30%;
+        margin: 3rem;
+      }
+    }
+  }
+}
+
+.link-list {
+  margin: 2rem;
+  p{
+    margin: 0.5rem;
+  }
+  .link-list-row {
+    a{
+      display: inline-block;
+      margin: 0.5em auto;
+      width: 20em;
+      padding: 0.5em 1em;
+      border: 1px solid $primaryColor;
+    }
+  }
+}
+

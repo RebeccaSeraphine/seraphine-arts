@@ -1,0 +1,272 @@
+{{ define "main" }}
+<h1>Colouring Books</h1>
+</br>
+<div id='collection-component-1614512526977'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'seraphine-arts.myshopify.com',
+      storefrontAccessToken: '867da578c0bcbd241ebe3fd17af7cf11',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('collection', {
+        id: '230695862439',
+        node: document.getElementById('collection-component-1614512526977'),
+        moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
+        options: {
+  "product": {
+    "contents":{
+      "price": "true",
+    },
+    "templates":{
+      "price": "<div><span class={{"{{data.classes.product.price}}"}}><p><b>{{"{{data.selectedVariant.price}}"}} €</b></p></span></div>",
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(33.33333% - 30px)",
+          "margin-left": "30px",
+          "margin-bottom": "50px",
+          "width": "calc(33.33333% - 30px)"
+        }
+      },
+      "title": {
+        "font-family": "Open Sans, sans-serif",
+        "font-weight": "normal",
+        "color": "#000000"
+      },
+      "button": {
+        "font-family": "Open Sans, sans-serif",
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#2aab97"
+        },
+        "background-color": "#2fbea8",
+        ":focus": {
+          "background-color": "#2aab97"
+        },
+        "border-radius": "0px",
+        "padding-left": "19px",
+        "padding-right": "19px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "price": {
+        "font-family": "Open Sans, sans-serif",
+        "font-weight": "bold",
+        "font-size": "16px",
+        "color": "#000000"
+      },
+      "compareAt": {
+        "font-family": "Open Sans, sans-serif",
+        "font-weight": "bold",
+        "font-size": "13.6px",
+        "color": "#000000"
+      },
+      "unitPrice": {
+        "font-family": "Open Sans, sans-serif",
+        "font-weight": "bold",
+        "font-size": "13.6px",
+        "color": "#000000"
+      },
+      "description": {
+        "color": "#ffffff"
+      }
+    },
+    "buttonDestination": "modal",
+    "contents": {
+      "options": false
+    },
+    "text": {
+      "button": "View product"
+    },
+    "googleFonts": [
+      "Open Sans"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-30px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-family": "Open Sans, sans-serif",
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#2aab97"
+        },
+        "background-color": "#2fbea8",
+        ":focus": {
+          "background-color": "#2aab97"
+        },
+        "border-radius": "0px",
+        "padding-left": "19px",
+        "padding-right": "19px"
+      },
+      "quantityInput": {
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px"
+      },
+      "title": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "26px",
+        "color": "#4c4c4c"
+      },
+      "price": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "bold",
+        "font-size": "16px",
+        "color": "#4c4c4c"
+      },
+      "compareAt": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "bold",
+        "font-size": "13.6px",
+        "color": "#4c4c4c"
+      },
+      "unitPrice": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "bold",
+        "font-size": "13.6px",
+        "color": "#4c4c4c"
+      },
+      "description": {
+        "font-family": "Helvetica Neue, sans-serif",
+        "font-weight": "normal",
+        "font-size": "14px",
+        "color": "#4c4c4c"
+      }
+    },
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "option": {},
+  "cart": {
+    "styles": {
+      "button": {
+        "font-family": "Open Sans, sans-serif",
+        "font-size": "16px",
+        "padding-top": "16px",
+        "padding-bottom": "16px",
+        ":hover": {
+          "background-color": "#2aab97"
+        },
+        "background-color": "#2fbea8",
+        ":focus": {
+          "background-color": "#2aab97"
+        },
+        "border-radius": "0px"
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    },
+    "popup": false,
+    "googleFonts": [
+      "Open Sans"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Open Sans, sans-serif",
+        "background-color": "#2fbea8",
+        ":hover": {
+          "background-color": "#2aab97"
+        },
+        ":focus": {
+          "background-color": "#2aab97"
+        }
+      },
+      "count": {
+        "font-size": "16px"
+      }
+    },
+    "googleFonts": [
+      "Open Sans"
+    ]
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+
+<div class="link-list">
+  <p>Both books are also available from these vendors:*</p>
+  <div class="link-list-row">
+    <a target="_blank" href="https://www.amazon.de/gp/product/3982259827/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=3982259827&linkCode=as2&tag=seraphinearts-21&linkId=38568e91393eacfd2495d505540d8af1">amazon.de - Zen Animals</a>
+    <a target="_blank" href="https://www.amazon.de/gp/product/3982259819/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=3982259819&linkCode=as2&tag=seraphinearts-21&linkId=fae23dc8d0ebc460aa44a44ef51e490c">amazon.de - Zen Tierwelt</a>
+  </div>
+  <div class="link-list-row">
+    <a target="_blank" href="https://www.amazon.co.uk/Zen-Animals-Colouring-Adventure-Kingdom/dp/3982259827/ref=sr_1_1">amazon.co.uk - Zen Animals</a>
+    <a target="_blank" href="https://www.amazon.co.uk/Zen-Tierwelt-Malbuch-Abenteuer-Reich/dp/3982259819/ref=sr_1_2">amazon.co.uk - Zen Tierwelt</a>
+  </div>
+  <div class="link-list-row">
+    <a target="_blank" href="https://www.amazon.com/Zen-Animals-Colouring-Adventure-Kingdom/dp/3982259827/ref=sr_1_1">amazon.com - Zen Animals</a>
+    <a target="_blank" href="https://www.amazon.com/Zen-Tierwelt-Malbuch-Abenteuer-German/dp/3982259819/ref=sr_1_2">amazon.com - Zen Tierwelt</a>
+  </div>
+  <div class="link-list-row">
+    <a target="_blank" href="https://www.barnesandnoble.com/w/zen-animals-rebecca-seraphine-m-ller/1138328067">BARNES & NOBLE - Zen Animals</a>
+    <a target="_blank" href="https://www.barnesandnoble.com/w/zen-tierwelt-rebecca-seraphine-m-ller/1138328057">BARNES & NOBLE - Zen Tierwelt</a>
+  </div>
+</div>
+
+
+<p>*Please note that prices on those platforms might vary, as the sellers are free to change prices independent of the publisher.</p>
+<p>This list may contain affiliate links, meaning that at no additional cost to you, I may earn a small commission.</p>
+{{ end }}

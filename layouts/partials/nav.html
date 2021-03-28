@@ -1,0 +1,34 @@
+<nav id="topnav">
+  <ul>
+    {{- $imageResource := resources.Get "images/seraphine-arts-logo.png" -}}
+    {{ $image := $imageResource.Fit "100x100" }}
+    <li>
+      <a id="nav-logo" href="{{ "/" | relLangURL }}"> 
+        <img loading="eager" src="{{ $image.RelPermalink }}" alt="home" />
+      </a>
+    </li>
+    <li>
+      <a id="nav-brandname" href="{{ "/" | relLangURL }}"> 
+        <p class="brand-name">Seraphine Arts</p>
+      </a>
+    </li>
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+      <li>
+        <a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ replace .Name "-" " " | title }}</a>
+      </li>
+    {{ end }}
+    <!--<li class="right-nav">
+      {{- partial "i18nlist.html" . -}}
+    </li>-->
+    <li class="right-nav">
+      {{- partial "social-icons.html" . -}}
+    </li>
+  </span>
+    <li id="burger-menu">
+      <button type="button" id="burger-button" onclick="toggleResponsiveNav()" aria-label="button to open navigation">
+        <i class="fa fa-bars"></i>
+      </button>
+    </li>
+  </ul>
+</nav>

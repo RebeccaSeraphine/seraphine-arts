@@ -1,0 +1,19 @@
+{{- $showDate := default true (.Scratch.Get "showDate") -}}
+
+<div class="hovereffect">
+    <a  href="{{ .RelPermalink }}">
+      <div class="image-post">
+        {{ .Scratch.Set "width" "500"}} 
+        {{ .Scratch.Set "quality" "80"}}
+        {{- partial "attachedImage.html" . -}}
+      </div>
+      <div class="overlay">
+        <div class="overlay-text">   
+          <h3>{{ .Title | title }}</h3>
+          {{- if $showDate -}}
+          <p>{{ .Date.Format "2006" }}</p>
+          {{- end -}}
+        </div>
+      </div>
+    </a>
+</div>

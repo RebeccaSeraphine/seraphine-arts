@@ -1,0 +1,13 @@
+{{ $num := .Scratch.Get "pageNumber"}}
+{{ $cat := .Scratch.Get "category" | lower }}
+
+<div class="list-gallery">
+{{- range where .Pages "Section" $cat -}}
+    {{ range first $num .Pages.ByDate.Reverse }} 
+
+    {{partial "imageoverlay.html" .}}
+
+    {{ end }} 
+    {{ end }}
+  </div>
+  

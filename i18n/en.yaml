@@ -1,0 +1,38 @@
+nav:
+  legal: "legal information"
+  shipping: "shipping information"
+  top: "back to top"
+  collection: "back to gallery"
+home:
+  illustrationsheader: "Latest illustrations"
+  creativecornerheader: "Relax With Adult Colouring"
+  shopheader: "All time favourites"
+  text01:
+    title: "Welcome"
+    content: "Hello wanderer and welcome to this colourful place! I am Seraphine, an artist and colouring book author from Germany who creates intricate illustrations in a contemporary style. My mission is to connect humanity and nature through art that inspires happiness and positive change. I hope you enjoy your stay and find something that makes you smile. You can see a gallery with my works "
+    link: "here."
+  text02:
+    title: "Colourful home decor"
+    content: "Colourful wall art that brings the wonders of nature to your favourite spaces. The contemporary artistic style adds a unique touch by combining elements from Western and Asian culture into a universe a universe of carefully crafted patterns and details, offering something new to explore each time you revisit a piece. Artworks are available as fine art Giclée prints for vivid colour reproduction or as posters with optional frame for easy hanging." 
+  text03:
+    title: "Colouring for adults"
+    content:  "Get creative and relax with adult colouring. Colouring books for adults have become increasingly popular and known for their beneficial health effects such as reducing stress and anxiety. During the 2020 pandemic and lockdown I wanted to use my artistic skills to help people get through these tough times better. So I put together my first colouring book as a collection of relaxing and uplifting animal motifs and continue to create additional colouring pages that are downloadable for free "
+    link: "here."
+  text04:
+    title: "Continue your journey"
+    content:  "Thank you for scrolling all the way donw here, I hope you are enjoying your stay. :) If you want to learn more about the artist and art style, please check out the "
+    link1: "About"
+    content-part2:  " section. If you still have questions or would like to commission a work, please don't hesitate to "
+    link2: "contact"
+    content-part3:  " me."
+  callToAction:
+    button: "Explore wall art"
+    frame: "Intricate artworks that bring the wonders of nature to your favourite spaces"
+buttons:
+  pdfdownload: "Download PDF"
+  togallery: "Browse all"
+  toshop: "Find yours"
+  tocreativecorner: "Get creative"
+footer:
+  rightsreserved: "All Rights Reserved."
+  contact: "Contact"

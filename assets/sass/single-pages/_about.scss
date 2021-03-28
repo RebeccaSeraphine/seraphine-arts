@@ -1,0 +1,19 @@
+#about-page {
+  padding: 0 1rem;
+
+  .images {
+    margin-top: 2rem;
+
+    &>img {
+      max-width: 98%;
+    }
+    @media screen and (min-width: $breakpoint-01) {
+      display: flex;
+      justify-content: space-around;
+
+      &>img {
+        width: 30%;
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+nav:
+  legal: "Impressum"
+  shipping: "Versandinformationen"
+  top: "zurück nach oben"
+  collection: "zurück zur Sammlung"
+home:
+  illustrationsheader: "Meine Bildchen :)"
+  creativecornerheader: "Meine Ausmalseiten :)"
+  text01:
+    title: "text01 überschrift"
+    content: "text01 Inhalt"
+  text02:
+    title: "text02 überschrift"
+    content: "text02 Inhalt"
+  callToAction:
+    button: "Aufruf zu Aktion!"
+    frame: "Agieren Sie jetzt! Nur noch 2 Tage!"
+buttons:
+  pdfdownload: "Als PDF laden"
+  showmore: "Zeig mir mehr"
+footer:
+  rightsreserved: "Alle Rechte vorbehalten."
+  contact: "Kontakt"

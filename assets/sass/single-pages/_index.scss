@@ -1,0 +1,82 @@
+#index-page {
+  #welcomeimage-section {
+    position: relative;
+    margin-top: 0;
+    #welcomeimage {
+      width: 100%;
+    }
+
+    #welcomeimage-frame {
+      position: absolute;
+      background-color: rgba($fontColor, 0.6);
+      bottom: 2rem;
+      right: 2rem;
+      padding: 2rem 2rem 0 2rem;
+      width: 30%;
+      color: $bgColor;
+      #welcomeimage-button {
+        margin-top: 1.5rem;
+      }
+    }
+  }
+
+  #landingpage-section-illustrations {
+    margin-top: 2rem;
+  }
+
+  .landing-page-text {
+    padding: 1rem 2rem;
+  }
+
+  section {
+    margin: 5rem 0;
+  }
+  .text-link {
+    color: $primaryColor;
+    &:hover {
+      color: $primaryColorHover;
+    }
+  }
+
+  .link-page-preview-section {
+    @media screen and (min-width: $breakpoint-01) {
+      display: flex;
+      justify-content: center;
+
+      & > .page-link-preview {
+        width: 45%;
+        max-width: 30rem;
+        margin: 3rem;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+// mobile
+@media screen and (max-width: $breakpoint-03) {
+  #index-page {
+    #welcomeimage-section {
+      #welcomeimage-frame {
+        display: none;
+      }
+    }
+  }
+  .gallery-preview-desktop {
+    display: none;
+  }
+}
+
+// desktop
+@media screen and (min-width: $breakpoint-03) {
+  #index-page {
+    .landing-page-text {
+      padding: 1rem 10rem 1rem 10rem;
+    }
+  }
+  .gallery-preview-mobile {
+    display: none;
+  }
+}

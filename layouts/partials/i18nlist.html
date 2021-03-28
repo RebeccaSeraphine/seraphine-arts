@@ -1,0 +1,13 @@
+{{ if .IsTranslated }}
+<div id="lang-picker">
+  {{ range .Translations }}
+
+  <a href="{{ .Permalink }}">
+    {{- $imagePath := (printf "images/flag-%s.jpg" .Language) -}} {{- $imageResource := resources.Get $imagePath -}}
+    {{$image := $imageResource.Fit "80x80" }}
+    <img loading="eager" src="{{$image.RelPermalink}}" />
+  </a>
+
+  {{ end }}
+</div>
+{{ end }}

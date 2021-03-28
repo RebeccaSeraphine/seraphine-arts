@@ -1,0 +1,152 @@
+$header-height: 5rem;
+
+header {
+  width: 100%;
+  overflow: hidden;
+  line-height: $header-height;
+  @media screen and (min-width: $breakpoint-03) {
+    margin-bottom: 1rem;
+  }
+}
+
+nav {
+  width: 100%;
+  z-index: 1000;
+  background-color: $bgColor;
+
+  li {
+    list-style: none;
+  }
+
+  // mobile
+  @media screen and (max-width: $breakpoint-03) {
+    li {
+      float: left;
+      text-align: left;
+
+      // disable mobile nav by default except for brandicon and burger menu
+      &:not(:first-child, :nth-child(2), :last-child) {
+        display: none;
+      }
+
+      &#burger-menu {
+        float: right;
+      }
+
+      & > .social-icons > a:first-of-type{
+        padding-left: 0rem;
+      }
+      & > .social-icons{
+        margin-bottom: 2rem;
+      }
+
+      & > a,
+      & > #lang-picker > a {
+        display: block;
+        width: 100%;
+      }
+
+      & > a,
+      & > .social-icons,
+      & > #lang-picker{
+        line-height: 3rem;
+      }
+      & > #lang-picker > a > img {
+        max-height: 1rem;
+      }
+    }
+
+    &.responsive-visible {
+      border-bottom: 1px solid $fontColor;
+      position: fixed;
+
+      li {
+        &:not(:first-child){
+          float: none;
+          display: block;
+          padding-left:1rem;
+        }
+        &:nth-child(3) > a{
+          margin-top:1.3rem;
+        }
+        &,
+        & > * {
+          display: block;
+        }
+
+        // &:nth-child(2n+3) {
+        //   background-color: rgba($primaryColor, $alpha: 0.2);
+        // }
+
+        &#burger-menu {
+          position: fixed;
+          right: 0;
+          top: 0;
+        }
+      }
+    }
+  }
+
+  // desktop
+  @media screen and (min-width: $breakpoint-03) {
+    ul{
+      display: flex;
+      height: 5rem;
+    }
+    li {
+      &:nth-child(n+3){
+        padding: 0.1rem 1rem;
+      }
+      &:nth-child(3){
+        padding-left: 2rem;
+      }
+      &#burger-menu {
+        display: none;
+      }
+
+      & > a {
+        &.active {
+          color: $primaryColor;
+        }
+      }
+
+      & > * {
+        height: 1.5rem;
+        width: 100%;
+      }
+
+      & > #lang-picker > a > img {
+        height: 1.1rem;
+        max-width: 2.2rem;
+      }
+      &.right-nav{
+        margin-left: auto;
+      }
+    }
+  }
+}
+
+#nav-logo > img{
+    max-height: 5rem;
+    max-width: 5rem;
+    padding: 0.8rem 0.8rem;
+}
+
+#nav-brandname{
+  font-size: 1.5rem;
+  line-height: $header-height;
+}
+
+#burger-button {
+  height: $header-height;
+  width: $header-height;
+  outline: none;
+  border: none;
+  vertical-align: middle;
+  font-size: 1.5rem;
+  background-color: $bgColor;
+
+  &:hover {
+    color: $primaryColor;
+  }
+}

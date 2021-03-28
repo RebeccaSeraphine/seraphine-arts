@@ -1,0 +1,3 @@
+{{ $plugins := resources.Get "js/main.js" }} 
+{{ $jsBundle := slice $plugins | resources.Concat "js/bundle.js" | resources.Minify }}
+<script src="{{ $jsBundle.RelPermalink }}"></script>

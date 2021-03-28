@@ -1,0 +1,87 @@
+@import "globalVars";
+@import "header";
+@import "footer";
+@import "listpage";
+@import "singlepage";
+@import "single-pages/index";
+@import "single-pages/legal";
+@import "single-pages/shop";
+@import "single-pages/about";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font: 16px $fontStack;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+html {
+  height: 100%;
+  background-color: $bgColor;
+  color: $fontColor;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    color: $primaryColor;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+.clearfix {
+  overflow: visible;
+
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+.single-page-image {
+  padding: 0 1%;
+}
+
+.button {
+  display: block;
+  margin: 2em auto;
+  width: 10em;
+  padding: 1em 1em;
+  background-color: $primaryColor;
+  color: $bgColor;
+}
+
+.button:hover{
+  background-color: $primaryColorHover;
+  color: $bgColor;
+}
+
+.social-icons {
+  a {
+    padding: 1rem;
+  }
+  i {
+    font-size: 1.4rem;
+  }
+}

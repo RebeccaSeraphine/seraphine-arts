@@ -1,0 +1,9 @@
+{{- $path := .Scratch.Get "path" -}}
+
+
+{{ with .Site.GetPage $path }}
+<div class="page-link-preview">
+  {{- .Scratch.Set "showDate" false -}}
+  {{- partial "imageoverlay.html" . -}}
+</div>
+{{ end }}

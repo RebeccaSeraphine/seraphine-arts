@@ -1,0 +1,23 @@
+.footer-pusher {
+  min-height: 80%;
+}
+
+footer {
+  margin-top: 2rem;
+  min-height: 4rem;
+  padding: 1rem;
+
+  #top-button {
+    padding: 2rem;
+    margin: 1rem;
+  }
+
+  hr {
+    margin-bottom: 2rem;
+  }
+  @media screen and (max-width: $breakpoint-02) {
+    a {
+      line-height: 3rem;
+    }
+  }
+}

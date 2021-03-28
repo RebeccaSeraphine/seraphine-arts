@@ -1,0 +1,71 @@
+{{ define "main" }}
+<div>
+  <section id="welcomeimage-section">
+    {{- $imageResource := resources.Get "images/colorful-wall-art.jpg" -}} 
+    {{ $image := $imageResource.Resize "2160x q100" }}
+    <img loading="lazy" id="welcomeimage" src="{{ $image.RelPermalink }}" alt="welcome image"/>
+    <div id="welcomeimage-frame">
+      <p id="welcomeimage-text">{{ i18n "home.callToAction.frame" }}</p>
+      <a id="welcomeimage-button" class="button" href="{{ "shop/prints/" | relLangURL }}" aria-label="button to prints shop">{{ i18n "home.callToAction.button"}}</a>
+    </div>
+  </section>
+
+  <section class="landing-page-text">
+    <h2>{{- i18n "home.text01.title" | title -}}</h2>
+    <p>{{- i18n "home.text01.content" -}}
+      <a class="text-link" href="{{ "illustrations/" | relLangURL }}"> {{- i18n "home.text01.link" -}}</a>
+    </p>
+
+  </section>
+
+  <section id="landingpage-section-illustrations">
+    <div class="gallery-preview-desktop">{{ .Scratch.Set "pageNumber" "5"}}
+    {{ .Scratch.Set "category" "illustrations"}}
+    {{- partial "latest.html" . -}}
+    </div>
+    <div class="gallery-preview-mobile">{{ .Scratch.Set "pageNumber" "4"}}
+      {{ .Scratch.Set "category" "illustrations"}}
+      {{- partial "latest.html" . -}}
+    </div>
+    <a class="button" href="{{ "illustrations/" | relLangURL }}" aria-label="button to gallery">{{ i18n "buttons.togallery" }}</a>
+  </section>
+  
+  <section class="landing-page-text">
+    <h2>{{- i18n "home.text02.title" | title -}}</h2>
+    <p>{{- i18n "home.text02.content" -}}</p>
+  </section>
+
+  <section class="link-page-preview-section">
+    {{- .Scratch.Set "path" "shop/prints" -}}
+    {{- partial "linkpagepreview.html" . -}}
+
+    {{- .Scratch.Set "path" "shop/posters" -}}
+    {{- partial "linkpagepreview.html" . -}}
+  </section>
+
+  <section class="landing-page-text">
+    <h2>{{- i18n "home.text03.title" | title -}}</h2>
+    <p>{{- i18n "home.text03.content" -}}
+      <a class="text-link" href="{{ "creative-corner/" | relLangURL }}"> {{- i18n "home.text03.link" -}}</a>
+    </p>
+  </section>
+
+  <section class="link-page-preview-section">
+    {{- .Scratch.Set "path" "shop/books" -}}
+    {{- partial "linkpagepreview.html" . -}}
+
+    {{- .Scratch.Set "path" "creative-corner" -}}
+    {{- partial "linkpagepreview.html" . -}}
+  </section>
+
+  <section class="landing-page-text">
+    <h2>{{- i18n "home.text04.title" | title -}}</h2>
+    <p> {{- i18n "home.text04.content" -}}
+        <a class="text-link" href="{{ "about/" | relLangURL }}"> {{- i18n "home.text04.link1" -}}</a>
+        {{- i18n "home.text04.content-part2" -}}
+        <a class="text-link" href="mailto:seraphinearts@gmail.com">{{- i18n "home.text04.link2" -}}</a>
+        {{- i18n "home.text04.content-part3" -}}</p>
+  </section>
+
+</div>
+{{ end }}

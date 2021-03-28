@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ .Language }}">
+    {{- partial "head.html" . -}}
+    <body>
+        <div class="footer-pusher">
+            {{- partial "header.html" . -}}
+            <div class="main" id="{{- ((replace .RelPermalink "de/" "" ) | anchorize) | default "index" -}}-page">
+                {{- block "main" . }}{{- end }}
+            </div>
+        </div>
+        {{- partial "footer.html" . -}}
+        {{- partial "jsincludes.html" . -}}
+    </body>
+</html>
