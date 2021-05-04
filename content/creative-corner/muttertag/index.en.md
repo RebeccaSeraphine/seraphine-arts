@@ -1,5 +1,5 @@
 ---
-title: "Mother's Day Greeting Cards - ENGLISH"
+title: "Mother's Day Greeting Cards - GERMAN"
 date: 2021-05-03T00:34:59+01:00
 draft: false
 ---
