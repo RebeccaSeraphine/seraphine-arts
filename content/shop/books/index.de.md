@@ -6,4 +6,4 @@ layout: "books"
 draft: true
 ---
 
-Ausmalbücher
+Liebevoll illustrierte Malbücher für Jugendliche und Erwachsene. Gönne dir eine kreative Auszeit und erwecke Flora & Fauna mit deinen Farben zum Leben. Alle Bücher sind in deutscher und englischer Fassung erhältlich.

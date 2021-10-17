@@ -6,4 +6,5 @@ layout: "books"
 draft: false
 ---
 
-Welcome to a colouring adventure! Featuring more than 25 intricate illustrations, this book takes you on a magical journey through the kingdom of animals.
+Intricate adult colouring books filled with the wonders of animal and plant life. Enjoy a creative break and embark on a magical colouring adventure! 
+All books are available in German and English. 
