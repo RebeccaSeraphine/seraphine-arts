@@ -2,7 +2,7 @@
 title: "shipping information"
 date: 2021-02-13T14:11:07+01:00
 type: "service-info"
-draft: false
+draft: true
 ---
 
 We continue shipping during COVID-19 and do our best to make your order arrive as soon as possible. However please note that some shipping delays might occur at the moment.
