@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+  <h1>{{ .Title | title }}</h1>
+  <p>{{ .Content }}</p>
+<div class="images">
+  {{ .Scratch.Set "width" "500"}}
+  {{ .Scratch.Set "quality" "80"}}
+  {{ .Scratch.Set "numPics" "3"}}
+  {{- partial "attachedImage.html" . -}}
+</div>
+
+{{ end }}
