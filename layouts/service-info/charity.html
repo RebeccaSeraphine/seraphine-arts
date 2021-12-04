@@ -1,12 +1,34 @@
 {{ define "main" }}
 
-  <h1>{{ .Title | title }}</h1>
-  <p>{{ .Content }}</p>
-<div class="images">
-  {{ .Scratch.Set "width" "500"}}
-  {{ .Scratch.Set "quality" "80"}}
-  {{ .Scratch.Set "numPics" "3"}}
-  {{- partial "attachedImage.html" . -}}
+<h1>{{ .Title | title }}</h1>
+<div class="content-container">
+  <div>
+    <p>
+      Making a difference with art ❤️
+    </p>
+    <p>
+      Working in close cooperation with the <a href="https://loan-stiftung.de/?lang=en">LO-ANH Foundation</a> I created the illustration "DAWN" insired by the coming Lunar New Year of the Tiger. <b>100% of the profit from this artwork, including all related products, will be donated to the foundation to help support disadvantaged children from ethnic minorities in the most remote areas of Vietnam.</b>
+    <p>
+    <p>
+      The work of the LO-ANH Foundation includes the construction of kindergardens, elementary schools, sleeping quarters and scholarships as well as sponsorships for orphans in Vietnam's northern, mountainous regions that are so difficult to access that almost no orgaizations attempts to help there. Every contribution goes directly and completely into the LO-ANH Foundation’s projects for children in need.
+    </p>
+    <p>
+      Inspired by the wonders of our planet my artworks reflect the colourful beauty of our world. While I hope that my creations bring people joy and happiness, I also wish them to make a lasting difference, however great or small it may be.
+    </p>
+    <p>
+      <b>Thanks to your amazing support, "DAWN" has raised 348€ so far.</b> The funds are transferred to the LO-ANH Foundation every quater.
+    </p>
+  </div>
+  <div class="images">
+    {{ .Scratch.Set "width" "500"}}
+    {{ .Scratch.Set "quality" "80"}}
+    {{ .Scratch.Set "numPics" "3"}}
+    {{- partial "attachedImage.html" . -}}
+  </div>
+
+  
 </div>
+
+
 
 {{ end }}

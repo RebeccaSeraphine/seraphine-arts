@@ -8,4 +8,3 @@ menu:
   main:
     weight: 4
 ---
-
