@@ -18,6 +18,9 @@
     <p>
       <b>Thanks to your amazing support, "DAWN" has raised 348€ so far.</b> The funds are transferred to the LO-ANH Foundation every quater.
     </p>
+    <p>
+      You can find products with this artwork accross the different shop categories and see the entire collection <a href="{{ "shop/art-for-charity" | relLangURL }}">here</a>.
+    </p>
   </div>
   <div class="images">
     {{ .Scratch.Set "width" "500"}}
@@ -25,10 +28,6 @@
     {{ .Scratch.Set "numPics" "3"}}
     {{- partial "attachedImage.html" . -}}
   </div>
-
-  
 </div>
-
-
 
 {{ end }}
