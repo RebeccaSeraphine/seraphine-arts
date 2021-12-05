@@ -25,6 +25,14 @@
         margin: 3rem;
       }
     }
+    @media screen and (min-width: $breakpoint-01) {
+      display: flex;
+      justify-content: center;
+      &>a {
+        width: 30%;
+        margin: 1rem;
+      }
+    }
   }
 }
 
