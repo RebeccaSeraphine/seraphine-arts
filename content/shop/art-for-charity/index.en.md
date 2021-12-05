@@ -5,4 +5,4 @@ type: "shop"
 layout: "charity"
 draft: false
 ---
-Working in close cooperation with the LO-ANH Foundation, 100% of the profit from this art collection is donated to help children in need.
+Working in close cooperation with the LO-ANH Foundation (LOAN Stiftung), 100% of the profit from this exclusive art collection is donated to help children in need.
