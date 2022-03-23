@@ -1,23 +1,38 @@
 nav:
   legal: "Impressum"
   shipping: "Versandinformationen"
-  top: "zurück nach oben"
-  collection: "zurück zur Sammlung"
+  top: "Zurück zum Seitenanfang"
+  collection: "Zurück zur Gallerie"
 home:
-  illustrationsheader: "Meine Bildchen :)"
-  creativecornerheader: "Meine Ausmalseiten :)"
+  illustrationsheader: "Neueste Illustrationen"
+  creativecornerheader: "Kostenlose Ausmalseiten zum Entspannen"
   text01:
-    title: "text01 überschrift"
-    content: "text01 Inhalt"
+    title: "Herzlich Willkommen :)"
+    content: "Hallo, schön dass Du hier bist. Ich bin Rebecca Seraphine, eine Künstlerin und Malbuch Autorin aus Karlsruhe. Inspiriert von der Artenvielfalt unseres Planeten, möchte ich durch meine farbenfrohen, filigrane Illustrationen Mensch und Natur näher zusammenbringen. Meine Werke sollen Freude bereiten und zu positiver Veränderung ermutigen.
+    Auf dieser Seite findest Du neben einer bunten Welt aus Natur- und Tierillustrationen auch Malbücher und kostenlosen Ausmalseiten zum Entspannen. Viel Freude beim Entdecken! Direkt zur Bildergallerie getht es "
+    link: "hier."
   text02:
-    title: "text02 überschrift"
-    content: "text02 Inhalt"
+    title: "Dein Lieblingsmotiv als Kunstdruck"
+    content: "Du hast ein Motiv gefunden das Dir besonders gut gefällt? Meine Illustrationen sind als hochwertige Giclée Kunstdrucke in verschiednen Größen in meinem Shop erhältlich. Alle Drucke werden mit Hahnemühle Fine Art Papier in Museumsqualität hergestellt. Durch die lebhafte Farbreproduktion und filigranen Muster der Illustrationen bieten die Kunstdrucke auch nach langer Zeit immer wieder neue Details zu entdecken."
+  text03:
+    title: "Ausmalen für Groß und Klein"
+    content:  "Lass Deiner Kreativität freien Lauf mit entspannenden Ausmalbüchern für Jugendliche und Erwachsene. In den letzten Jahren haben Malbücher zunehmend an Bekanntheit gewonnen und sind auch aufgrund ihres positiven gesundheitlichen Effekts für Stressabbau als kreative Aktivität beliebt. Um Menschen in der Zeit des Lockdowns 2020 und darüber hinaus mit meiner Kunst zu unterstützen, findest Du hier neben meinen Malbüchern auch die "
+    link: "Kreativecke, "
+    content-part2: "wo einige meiner Ausmalseiten kostenlos zu Herunterladen verfügbar sind."
+  text04:
+    title: "Über Seraphine Arts"
+    content:  "Wenn Du mehr über meine Kunst und mich lernen möchtest, findest du auf der "
+    link1: "Über mich"
+    content-part2:  " Seite noch mehr Informationen. Falls Du Feedback, Fragen oder Interesse an einer Auftragsarbeit oder Sonderanfertigung hast, dann "
+    link2: "kontaktiere "
+    content-part3:  "mich gerne jederzeit."
   callToAction:
-    button: "Aufruf zu Aktion!"
-    frame: "Agieren Sie jetzt! Nur noch 2 Tage!"
+    button: "Jetzt entdecken"
+    frame: "Farbenfrohe Illustrationen als hochwertige Kunstdrucke für Dein Zuhause"
 buttons:
   pdfdownload: "Als PDF laden"
-  showmore: "Zeig mir mehr"
+  togallery: "Zur Gallerie"
+  showmore: "Mehr entdecken"
 footer:
   rightsreserved: "Alle Rechte vorbehalten."
   contact: "Kontakt"
