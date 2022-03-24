@@ -35,9 +35,13 @@
   </section>
 
   <section class="link-page-preview-section">
-    {{- .Scratch.Set "path" "shop/prints" -}}
-    {{- partial "linkpagepreview.html" . -}}
+    <div class="link-page-preview-images">
+      {{- .Scratch.Set "path" "shop/prints" -}}
+      {{- partial "linkpagepreview.html" . -}}
+    </div>
+    <a class="button" href="{{ "shop/" | relLangURL }}" aria-label="button to gallery">{{ i18n "buttons.toprints" }}</a>
   </section>
+
 
   <section class="landing-page-text">
     <h2>{{- i18n "home.text03.title" | title -}}</h2>
@@ -48,11 +52,14 @@
   </section>
 
   <section class="link-page-preview-section">
-    {{- .Scratch.Set "path" "shop/books" -}}
-    {{- partial "linkpagepreview.html" . -}}
-
-    {{- .Scratch.Set "path" "creative-corner" -}}
-    {{- partial "linkpagepreview.html" . -}}
+    <div class="link-page-preview-images">
+      {{- .Scratch.Set "path" "shop/books" -}}
+      {{- partial "linkpagepreview.html" . -}}
+  
+      {{- .Scratch.Set "path" "creative-corner" -}}
+      {{- partial "linkpagepreview.html" . -}}
+    </div>
+    <a class="button" href="{{ "shop/" | relLangURL }}" aria-label="button to gallery">{{ i18n "buttons.tobooks" }}</a>
   </section>
 
   <section class="landing-page-text">

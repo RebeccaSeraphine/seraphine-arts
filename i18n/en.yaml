@@ -32,6 +32,8 @@ home:
 buttons:
   pdfdownload: "Download PDF"
   togallery: "Browse all"
+  toprints: "Explore wall art"
+  tobooks: "Shop books"
   toshop: "Find yours"
   tocreativecorner: "Get creative"
 footer:
