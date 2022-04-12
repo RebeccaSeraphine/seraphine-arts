@@ -9,6 +9,10 @@ menu:
     weight: 5
 ---
 
-# A little bit about myself
+# About
 
-Nice to meet you! My name is Rebecca Seraphine. I am a German artist and illustrator who loves creating colourful works. Nature and adventure are my inspiration and the heart of my creations. I make digital drawings, watercolour paintings and recently I published my very first adult colouring book! Outside my colourful world, I am also a frontend developer and houseplant lover, living in my indoor jungle.
+Hello wanderer and welcome to this colourful place! I am Seraphine, an artist and colouring book author from Germany who creates intricate illustrations in a contemporary style. My art is inspired by the beautiful diversity of our natural world and I hope to bring humanity and nature closer together & inspires happiness and positive change.
+
+Currently I am focusing on uplifting digital illustrations but also worked with watercolour and acrylic paint in the past. Besides my art I also enjoy outdoor activities, caring for my many houseplants and working as a frontend developer.
+
+Wether you are looking for colourful wall art, colouring pages or just want to browse through the artworks, I hope you enjoy your stay and find something that makes you smile.
