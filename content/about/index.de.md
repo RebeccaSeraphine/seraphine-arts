@@ -2,7 +2,7 @@
 title: "Über mich"
 date: 2021-02-13T12:15:50+01:00
 draft: false
-type: "service-info"
+type: "single-layouts"
 layout: "about"
 menu:
   main:
