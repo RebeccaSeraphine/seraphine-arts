@@ -1,12 +1,11 @@
 #about-page {
   padding: 0 1rem;
 
-  p{
-    margin-bottom: 1rem;
+  .content-text{
+    margin-bottom: 2rem;
   }
-  .images {
-    margin-top: 2rem;
 
+  .content-images {
     &>img {
       max-width: 98%;
     }
