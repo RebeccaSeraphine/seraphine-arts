@@ -1,9 +1,8 @@
 {{ define "main" }}
   <h1>{{ .Title | title }}</h1>
-  <p style="color:firebrick">The shop is currently closed for holidays from <strong>Friday April 8th</strong> until <strong>Tuesday April 16th</strong>. Orders can be placed again after that date.</p>
   <div id="shop-categories">
     {{ range .Pages.ByPublishDate.Reverse }}
-    <a >
+    <a  href="{{ .RelPermalink }}">
       {{ .Scratch.Set "width" "500"}} 
       {{ .Scratch.Set "quality" "80"}}
       {{- partial "attachedImage.html" . -}}
