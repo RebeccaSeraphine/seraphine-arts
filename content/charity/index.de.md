@@ -11,9 +11,9 @@ menu:
 
 Mit Kunst Kindern helfen ❤️
 
-Gemeinsam mit der [LOAN Stiftung](https://loan-stiftung.de) wurde in enger Zusammenarbeit Ende 2021 ein **Hilfsprojekt zur Unterstützung und Bildung für die ärmsten Kinder Vietnams** ins Leben gerufen. Inspirtiert durch das asiatische Neujahr des Tigers 2022, entstand für diese Aktion die Illustrationsreihe "DAWN". **Der gesamte Gewinn aus allen Verkäufen mit diesen Motiven wird dabei an die Stiftung gespendet.**
+Gemeinsam mit der [LOAN Stiftung](https://loan-stiftung.de) wurde in enger Zusammenarbeit Ende 2021 ein **Hilfsprojekt zur Unterstützung und Bildung für die ärmsten Kinder Vietnams** ins Leben gerufen. Inspiriert durch das asiatische Neujahr des Tigers 2022, entstand für diese Aktion die Illustrationsreihe "DAWN". **Der gesamte Gewinn aus allen Verkäufen mit diesen Motiven wird dabei an die Stiftung gespendet.**
 
-Die Projekte der LOAN Stiftung beinhalten den Bau von Kindergärten, Grundschulen, Schlafräumen und Stipendien wie auch die finanzielle Unterstützung von Waisenkindern in den ärmsten Teilen Vietnams. In diesen abgelegen Regionen sind aufgrund des erschwerten geografischen Zugangs bislang nur sehr wenige gemeinnützige Organisationen tätig.
+Die Projekte der LOAN Stiftung beinhalten den Bau von Kindergärten, Grundschulen und Schlafräumen wie auch Stipendien und die finanzielle Unterstützung von Waisenkindern in den ärmsten Teilen Vietnams. In diesen abgelegen Regionen sind aufgrund des erschwerten geografischen Zugangs bislang nur sehr wenige gemeinnützige Organisationen tätig.
 Da alle Arbeit innerhalb der Stiftung ehrenamtlich erfolgt, kommen 100% der Spenden direkt bei den Kindern in Vietnam an.
 
 Mit meiner farbenfrohen Kunst hoffe ich Menschen Glück & Inspiration geben zu können und auch darüber hinaus zu einer beständigen positiven Veränderung beizutragen.
