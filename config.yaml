@@ -1,9 +1,9 @@
 baseURL: "https://seraphine-arts.com"
 defaultContentLanguage: de
 languages:
-  en:
+  de:
     title: "Seraphine Arts"
     weight: 1
-  de:
+  en:
     title: "Seraphine Arts"
     weight: 2

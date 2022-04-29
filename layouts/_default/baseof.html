@@ -4,7 +4,7 @@
     <body>
         <div class="footer-pusher">
             {{- partial "header.html" . -}}
-            <div class="main" id="{{- ((replace .RelPermalink "de/" "" ) | anchorize) | default "index" -}}-page">
+            <div class="main" id="{{- ((replace .RelPermalink "en/" "" ) | anchorize) | default "index" -}}-page">
                 {{- block "main" . }}{{- end }}
             </div>
         </div>
