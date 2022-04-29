@@ -1,7 +1,10 @@
 #charity-page {
     padding: 0 5rem;
     a {
-        text-decoration: underline;
+        color: $primaryColor;
+        &:hover {
+          color: $primaryColorHover;
+        }
     }
     p {
         margin-bottom: 1rem;

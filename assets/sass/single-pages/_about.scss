@@ -1,5 +1,11 @@
 #about-page {
   padding: 0 1rem;
+  a {
+    color: $primaryColor;
+    &:hover {
+      color: $primaryColorHover;
+    }
+}
 
   .content-text{
     margin-bottom: 2rem;
