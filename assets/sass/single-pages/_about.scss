@@ -1,9 +1,17 @@
 #about-page {
   padding: 0 1rem;
+  a {
+    color: $primaryColor;
+    &:hover {
+      color: $primaryColorHover;
+    }
+}
 
-  .images {
-    margin-top: 2rem;
+  .content-text{
+    margin-bottom: 2rem;
+  }
 
+  .content-images {
     &>img {
       max-width: 98%;
     }

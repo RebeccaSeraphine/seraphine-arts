@@ -18,6 +18,7 @@ home:
     title: "Colouring for adults"
     content:  "Get creative and relax with adult colouring. Colouring books for adults have become increasingly popular and known for their beneficial health effects such as reducing stress and anxiety. During the 2020 pandemic and lockdown I wanted to use my artistic skills to help people get through these tough times better. So I put together my first colouring book as a collection of relaxing and uplifting animal motifs and continue to create additional colouring pages that are downloadable for free "
     link: "here."
+    content-part2: " "
   text04:
     title: "Continue your journey"
     content:  "Thank you for scrolling all the way down here, I hope you are enjoying your stay. :) If you want to learn more about the artist and art style, please check out the "
@@ -31,6 +32,8 @@ home:
 buttons:
   pdfdownload: "Download PDF"
   togallery: "Browse all"
+  toprints: "Explore wall art"
+  tobooks: "Shop books"
   toshop: "Find yours"
   tocreativecorner: "Get creative"
 footer:

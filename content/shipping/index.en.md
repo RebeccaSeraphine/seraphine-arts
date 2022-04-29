@@ -1,7 +1,7 @@
 ---
 title: "shipping information"
 date: 2021-02-13T14:11:07+01:00
-type: "service-info"
+type: "single-layouts"
 draft: true
 ---
 

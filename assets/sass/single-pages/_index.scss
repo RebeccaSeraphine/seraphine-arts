@@ -26,10 +26,11 @@
 
   .landing-page-text {
     padding: 1rem 2rem;
+    margin: 5rem 0 0;
   }
 
   section {
-    margin: 5rem 0;
+    margin: 1rem 0;
   }
   .text-link {
     color: $primaryColor;
@@ -38,7 +39,7 @@
     }
   }
 
-  .link-page-preview-section {
+  .link-page-preview-images {
     @media screen and (min-width: $breakpoint-01) {
       display: flex;
       justify-content: center;
@@ -46,9 +47,9 @@
       & > .page-link-preview {
         width: 45%;
         max-width: 30rem;
-        margin: 3rem;
         img {
           width: 100%;
+          padding: 0 2rem;
         }
       }
     }
