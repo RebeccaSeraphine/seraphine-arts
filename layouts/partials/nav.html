@@ -15,7 +15,7 @@
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
       <li>
-        <a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ replace .Name "-" " " | title }}</a>
+        <a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ replace .Name "-" " "}}</a>
       </li>
     {{ end }}
     <li class="right-nav">

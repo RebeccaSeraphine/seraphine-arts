@@ -1,5 +1,5 @@
 ---
-title: "about"
+title: "About"
 date: 2021-02-13T12:15:44+01:00
 draft: false
 type: "single-layouts"
