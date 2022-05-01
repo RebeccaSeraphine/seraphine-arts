@@ -5,4 +5,4 @@ type: "shop"
 layout: "charity"
 draft: false
 ---
-Hilfsprojekt zur Unterstützung und Bildung für die ärmsten Kinder Vietnams. Der gesamte Gewinn aus allen Verkäufen der Illustrationsreihe DAWN fließt in die Projekte der LOAN Stiftung.
+Hilfsprojekt zur Unterstützung und Bildung für die ärmsten Kinder Vietnams. Der gesamte Gewinn aus allen Verkäufen der Illustrationsreihe "DAWN" (Morgendämmerung) fließt in die Projekte der LOAN Stiftung.
