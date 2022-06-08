@@ -6,7 +6,11 @@
     <img loading="lazy" id="welcomeimage" src="{{ $image.RelPermalink }}" alt="welcome image"/>
     <div id="welcomeimage-frame">
       <p id="welcomeimage-text">{{ i18n "home.callToAction.frame" }}</p>
-      <a id="welcomeimage-button" class="button" href="{{ "shop/prints/" | relLangURL }}" aria-label="button to prints shop">{{ i18n "home.callToAction.button"}}</a>
+      {{ if in .Language "de" }}
+        <a id="welcomeimage-button" class="button" href="https://shop.seraphine-arts.com/collections/kunstdrucke" aria-label="button to prints shop">{{ i18n "home.callToAction.button"}}</a>
+      {{ else if in .Language "en" }}
+        <a id="welcomeimage-button" class="button" href="https://shop.seraphine-arts.com/en/collections/kunstdrucke" aria-label="button to prints shop">{{ i18n "home.callToAction.button"}}</a>
+      {{ end }}
     </div>
   </section>
 
@@ -35,11 +39,14 @@
   </section>
 
   <section class="link-page-preview-section">
-    <div class="link-page-preview-images">
-      {{- .Scratch.Set "path" "shop/prints" -}}
-      {{- partial "linkpagepreview.html" . -}}
-    </div>
-    <a class="button" href="{{ "shop/prints" | relLangURL }}" aria-label="button to gallery">{{ i18n "buttons.toprints" }}</a>
+    {{- $imageResource := resources.Get "images/fine-art-prints.jpg" -}} 
+    {{ $image := $imageResource.Resize "420x q100" }}
+    <img src="{{ $image.RelPermalink }}" alt="fox art print"/>
+    {{ if in .Language "de" }}
+      <a class="button" href="https://shop.seraphine-arts.com/collections/kunstdrucke" aria-label="button to gallery">{{ i18n "buttons.toprints" }}</a>
+    {{ else if in .Language "en" }}
+      <a class="button" href="https://shop.seraphine-arts.com/en/collections/kunstdrucke" aria-label="button to gallery">{{ i18n "buttons.toprints" }}</a>
+    {{ end }}
   </section>
 
 
@@ -52,14 +59,19 @@
   </section>
 
   <section class="link-page-preview-section">
-    <div class="link-page-preview-images">
-      {{- .Scratch.Set "path" "shop/books" -}}
-      {{- partial "linkpagepreview.html" . -}}
-  
-      {{- .Scratch.Set "path" "creative-corner" -}}
-      {{- partial "linkpagepreview.html" . -}}
+    <div>
+      {{- $imageResource := resources.Get "images/colouring-books.jpg" -}} 
+      {{ $image := $imageResource.Resize "420x q100" }}
+      <img src="{{ $image.RelPermalink }}" alt="fox art print"/>
+      {{- $imageResource := resources.Get "images/free-colouring-page.jpg" -}} 
+      {{ $image := $imageResource.Resize "420x q100" }}
+      <img src="{{ $image.RelPermalink }}" alt="fox art print"/>
     </div>
-    <a class="button" href="{{ "shop/books" | relLangURL }}" aria-label="button to gallery">{{ i18n "buttons.tobooks" }}</a>
+    {{ if in .Language "de" }}
+      <a class="button" href="https://shop.seraphine-arts.com/collections/colouring-books" aria-label="button to book shop">{{ i18n "buttons.tobooks" }}</a>
+    {{ else if in .Language "en" }}
+      <a class="button" href="https://shop.seraphine-arts.com/en/collections/colouring-books" aria-label="button to book shop">{{ i18n "buttons.tobooks" }}</a>
+    {{ end }}
   </section>
 
   <section class="landing-page-text">
