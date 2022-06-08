@@ -18,7 +18,7 @@ Da alle Arbeit innerhalb der Stiftung ehrenamtlich erfolgt, kommen 100% der Spen
 
 Mit meiner farbenfrohen Kunst hoffe ich Menschen Glück & Inspiration geben zu können und auch darüber hinaus zu einer beständigen positiven Veränderung beizutragen.
 
-Die Motive von "DAWN" sind über das ganze Asiatische Jahr des Tigers (bis Januar 2023) verfügbar und der Gewinn aus allen Verkäufen wird vierteljährlich an die Stiftung gespendet. Eine Übersicht aller Produkte, die dieses Hilfsprojekt unterstützen, findet ihr [hier](/shop/art-for-charity). Vielen Dank für eure Unterstützung! 
+Die Motive von "DAWN" sind über das ganze Asiatische Jahr des Tigers (bis Januar 2023) verfügbar und der Gewinn aus allen Verkäufen wird vierteljährlich an die Stiftung gespendet. Eine Übersicht aller Produkte, die dieses Hilfsprojekt unterstützen, findet ihr [hier](https://shop.seraphine-arts.com/search?q=dawn&options%5Bprefix%5D=last). Vielen Dank für eure Unterstützung! 
 
 Bei Fragen zur Kooperation oder zu den Projekten, kommt gerne jederzeit [per Email](mailto:seraphinearts@gmail.com) oder über Social Media auf mich zu. :)
 

@@ -18,7 +18,7 @@ The work of the LO-ANH Foundation (LOAN Stiftung) includes the construction of k
 
 Inspired by the wonders of our planet my artworks reflect the colourful beauty of our world. While I hope that my creations bring people joy and happiness, I also wish them to make a lasting difference, however great or small it may be.
 
-"DAWN" will be exclusively available throughout the Lunar Year of the Tiger, with all funds being transferred to the LO-ANH Foundation (LOAN Stiftung) every quarter. You can find products with this artwork accross the different shop categories and see the entire collection [here](/shop/art-for-charity). Thank you so much for your support!
+"DAWN" will be exclusively available throughout the Lunar Year of the Tiger, with all funds being transferred to the LO-ANH Foundation (LOAN Stiftung) every quarter. You can find products with this artwork accross the different shop categories and see the entire collection [here](https://shop.seraphine-arts.com/en/search?q=dawn&options%5Bprefix%5D=last). Thank you so much for your support!
 
 If you have any questions about the charity cooperation, products and shop or anything else, don't hesitate to [send me an email](mailto:seraphinearts@gmail.com) or contact me on social media. I'm always happy to help. :)
 
