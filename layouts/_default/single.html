@@ -2,46 +2,50 @@
   <div class="single-page clearfix">
 
     <div class="single-page-content">
+
       <div class="description">
-        <h1>{{ .Title | title }}</h1>
-        <p>{{ .Content }}</p>
+        <div>
+          <h1>{{ .Title | title }}</h1>
+          <p>{{ .Content }}</p>
+          {{- range first 1 (.Resources.Match "pdf/*") -}}
+          <a class="button" href="{{.RelPermalink}}" target="_blank" aria-label="button for pdf download">{{ i18n "buttons.pdfdownload" }}</a>
+          {{ end }}
+        </div>
+        <div class="single-page-navigation">
+          <div class="single-nav-link next-post">
+            {{ with .NextInSection }}
+            <a href="{{ .Permalink }}">
+              <i class="fas fa-arrow-left">
+                <span class="tooltip">{{ .Title | title | truncate 50 "..." }}</span>
+              </i>
+            </a>
+            {{ end }}
+          </div>
+          <div class="single-nav-link back-to-collection">
+            <a href="{{ .Parent.RelPermalink }}">
+              <i class="fas fa-th-large">
+                <span class="tooltip">{{- i18n "nav.collection" -}}</span>
+              </i>
+            </a>
+          </div>
+          <div class="single-nav-link previous-post">
+            {{ with .PrevInSection }}
+            <a href="{{ .Permalink }}">
+              <i class="fas fa-arrow-right">
+                <span class="tooltip">{{ .Title | title | truncate 50 "..."}}</span>
+              </i>
+            </a>
+            {{ end }}
+          </div>
+        </div>
       </div>
+
       <div class="single-page-image">
         {{ .Scratch.Set "width" "1080"}}
         {{ .Scratch.Set "quality" "100"}}
         {{- partial "attachedImage.html" . -}}
       </div>
     </div>
-
-    <div class="single-nav-link next-post">
-      {{ with .NextInSection }}
-      <a href="{{ .Permalink }}">
-        <i class="fas fa-arrow-left">
-          <span class="tooltip">{{ .Title | title | truncate 50 "..." }}</span>
-        </i>
-      </a>
-      {{ end }}
-    </div>
-    <div class="single-nav-link back-to-collection">
-      <a href="{{ .Parent.RelPermalink }}">
-        <i class="fas fa-th-large">
-          <span class="tooltip">{{- i18n "nav.collection" -}}</span>
-        </i>
-      </a>
-    </div>
-    <div class="single-nav-link previous-post">
-      {{ with .PrevInSection }}
-      <a href="{{ .Permalink }}">
-        <i class="fas fa-arrow-right">
-          <span class="tooltip">{{ .Title | title | truncate 50 "..."}}</span>
-        </i>
-      </a>
-      {{ end }}
-    </div>
-    {{- range first 1 (.Resources.Match "pdf/*") -}}
-      <a class="button" href="{{.RelPermalink}}" target="_blank" aria-label="button for pdf download">{{ i18n "buttons.pdfdownload" }}</a>
-    {{ end }}
-
 
   </div>
 {{ end }}
