@@ -1,22 +1,25 @@
 $description-width: 25rem;
 
 .single-page {
+
   @media screen and (min-width: $breakpoint-02) {
+    .single-page-content{
+      display: flex;
+      flex: 1;
+      justify-content: center;
+    }
     .description {
-      display: block;
-      // position: fixed;
-      float: left;
       width: $description-width;
       padding: 2rem 1rem;
     }
-
-    .single-page-image {
-      display: block;
-      margin: auto 2rem auto $description-width;
-      padding: 2rem;
+    .single-page-image{
+      width: 40%
     }
   }
 
+  .single-page-image {
+    padding: 1rem;
+  }
   .single-nav-link {
     display: inline;
     position: relative;

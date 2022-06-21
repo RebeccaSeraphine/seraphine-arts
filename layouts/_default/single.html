@@ -1,14 +1,16 @@
 {{ define "main" }}
   <div class="single-page clearfix">
-    <div class="description">
-      <h1>{{ .Title | title }}</h1>
-      <p>{{ .Content }}</p>
-    </div>
-    
-    <div class="single-page-image">
-      {{ .Scratch.Set "width" "1080"}}
-      {{ .Scratch.Set "quality" "100"}}
-      {{- partial "attachedImage.html" . -}}
+
+    <div class="single-page-content">
+      <div class="description">
+        <h1>{{ .Title | title }}</h1>
+        <p>{{ .Content }}</p>
+      </div>
+      <div class="single-page-image">
+        {{ .Scratch.Set "width" "1080"}}
+        {{ .Scratch.Set "quality" "100"}}
+        {{- partial "attachedImage.html" . -}}
+      </div>
     </div>
 
     <div class="single-nav-link next-post">
@@ -20,7 +22,6 @@
       </a>
       {{ end }}
     </div>
-    
     <div class="single-nav-link back-to-collection">
       <a href="{{ .Parent.RelPermalink }}">
         <i class="fas fa-th-large">
@@ -28,7 +29,6 @@
         </i>
       </a>
     </div>
-    
     <div class="single-nav-link previous-post">
       {{ with .PrevInSection }}
       <a href="{{ .Permalink }}">
@@ -38,10 +38,10 @@
       </a>
       {{ end }}
     </div>
-
     {{- range first 1 (.Resources.Match "pdf/*") -}}
       <a class="button" href="{{.RelPermalink}}" target="_blank" aria-label="button for pdf download">{{ i18n "buttons.pdfdownload" }}</a>
     {{ end }}
-      
+
+
   </div>
 {{ end }}
