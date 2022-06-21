@@ -8,17 +8,19 @@
 }
 
   .content-text{
-    margin-bottom: 2rem;
+    margin: 0 auto 2rem auto;
+    max-width: 80rem;
   }
 
   .content-images {
+    max-width: 100rem;
+    margin: auto;
     &>img {
       max-width: 98%;
     }
     @media screen and (min-width: $breakpoint-01) {
       display: flex;
       justify-content: space-around;
-
       &>img {
         width: 30%;
       }
