@@ -6,6 +6,6 @@ draft: false
 
 Frohe Ostern <3
 
-Kostenloses Ostermotiv zum Ausmalen oder als Bastelvorlage. Einfach unten kostenlos als pdf herunterladen, ausdrucken und loslegen. Viel Spaß! :)
+Kostenloses Ostermotiv zum Ausmalen oder als Bastelvorlage. Einfach als pdf herunterladen, ausdrucken und loslegen. Viel Spaß! :)
 
 Alle Ausmalseiten aus der Kreativecke können kostenlos für private Zwecke verwendet und gerne auch geteilt werden, eine komerzielle Verwendung oder Wiederverkauf ist nicht gestattet. 
