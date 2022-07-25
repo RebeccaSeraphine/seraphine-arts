@@ -23,3 +23,5 @@ Inspired by the wonders of our planet my artworks reflect the colourful beauty o
 If you have any questions about the charity cooperation, products and shop or anything else, don't hesitate to [send me an email](mailto:seraphinearts@gmail.com) or contact me on social media. I'm always happy to help. :)
 
 **Update February 2022:** Thanks to your amazing support we were able to raise 340€ and make our first donation. ❤️
+
+**Update July 2022:** An additional 200€ were raised through the cooperation and donated to help children in need. Thank you so much for your support!

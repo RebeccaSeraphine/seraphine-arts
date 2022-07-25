@@ -23,3 +23,5 @@ Die Motive von "DAWN" sind über das ganze Asiatische Jahr des Tigers (bis Janua
 Bei Fragen zur Kooperation oder zu den Projekten, komm gerne jederzeit [per Email](mailto:seraphinearts@gmail.com) oder über Social Media auf mich zu. :)
 
 **Update Februar 2022:** Dank eurer Unterstützung wurden bereits über 340€ gesammelt und an die Stiftung gespendet. ❤️
+
+**Update Juli 2022:** Weitere 200€ haben über das DAWN Projekt ihren Weg in die Bildungs- und Hilfsprojekte der LOAN Stiftung gefunden. Vielen Dank für eure Unterstützung!
