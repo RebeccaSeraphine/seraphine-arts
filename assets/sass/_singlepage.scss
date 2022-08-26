@@ -1,4 +1,10 @@
 .single-page {
+  a {
+    color: $primaryColor;
+    &:hover {
+      color: $primaryColorHover;
+    }
+  }
 
   @media screen and (min-width: $breakpoint-02) {
     .single-page-content{
