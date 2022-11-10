@@ -25,3 +25,5 @@ If you have any questions about the charity cooperation, products and shop or an
 **Update February 2022:** Thanks to your amazing support we were able to raise 340€ and make our first donation. ❤️
 
 **Update July 2022:** An additional 200€ were raised through the cooperation and donated to help children in need. Thank you so much for your support!
+
+**Update November 2022:** We were able to raise and donate another 271€ to support the foundation and its projects. Thank you!
