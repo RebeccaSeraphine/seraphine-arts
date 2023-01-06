@@ -1,6 +1,9 @@
 {{ define "main" }}
 
 <h1>{{ .Title | title }}</h1>
+
+
+
 <div class="content-container">
   <div>
     {{ .Content }}
@@ -13,4 +16,16 @@
   </div>
 </div>
 
+
+<div class="list-gallery">
+  {{ range .Pages.ByPublishDate.Reverse }}
+    {{partial "imageoverlay.html" .}}
+  {{ end }} 
+</div>
 {{ end }}
+
+
+
+
+
+    
