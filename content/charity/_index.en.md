@@ -13,7 +13,7 @@ menu:
 Making a difference with art ❤️
 
 
-Working in close cooperaiton, the [LO-ANH Foundation (LOAN Stiftung)](https://loan-stiftung.de/?lang=en) and I started an art for charity project, wehere **100% of the profit from an illusration, including all related products, is donated to support disadvantaged children in the most remote areas of Vietnam.** Inspired by the Lunar New Year of the Tiger, the first illustration "DAWN" was created 2022 and a new artwork follows each year. You can find an overview of all products with the current art for charity illustration [here](https://shop.seraphine-arts.com/en/search?q=dawn&options%5Bprefix%5D=last).
+Working in close cooperation, the [LO-ANH Foundation (LOAN Stiftung)](https://loan-stiftung.de/?lang=en) and I started an art for charity project, where **100% of the profit from an illustration, including all related products, is donated to support disadvantaged children in the most remote areas of Vietnam.** Inspired by the Lunar New Year of the Tiger, the first illustration "DAWN" was created 2022 and a new artwork follows each year. You can find an overview of all products with the current illustration [here](https://shop.seraphine-arts.com/en/search?q=dawn&options%5Bprefix%5D=last).
 
 The work of the LO-ANH Foundation (LOAN Stiftung) includes the construction of kindergardens, elementary schools and boarding houses as well as sponsorships for orphans in Vietnam's poorest regions, where almost no other NGOs are active because of the difficult geographical access. Every contribution goes directly and fully into the foundation's projects for children in need.
 

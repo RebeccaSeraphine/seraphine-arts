@@ -4,7 +4,7 @@ date: 2023-01-04T19:34:59+01:00
 draft: false
 ---
 
-Inspired by the Lunar New Year of the Tiger 2022, I created the illustration "DAWN" as the first motif of the art for charity cooperaiton with the [LO-ANH Foundation (LOAN Stiftung)](https://loan-stiftung.de/?lang=en). "DAWN" will be exclusively available throughout the Lunar Year of the Tiger, with all funds being transferred to the LO-ANH Foundation (LOAN Stiftung) every quarter.
+Inspired by the Lunar New Year of the Tiger 2022, I created the illustration "DAWN" as the first motif of the art for charity cooperation with the [LO-ANH Foundation (LOAN Stiftung)](https://loan-stiftung.de/?lang=en). "DAWN" will be exclusively available throughout the Lunar Year of the Tiger, with all funds being transferred to the LO-ANH Foundation (LOAN Stiftung) every quarter.
 
 **Update February 2022:** Thanks to your amazing support we were able to raise 340€ and make our first donation. ❤️
 
