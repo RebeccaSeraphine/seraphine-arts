@@ -11,19 +11,11 @@ menu:
 
 Mit Kunst Kindern helfen ❤️
 
-Gemeinsam mit der [LOAN Stiftung](https://loan-stiftung.de) wurde in enger Zusammenarbeit Ende 2021 ein Hilfsprojekt ins Leben gerufen, zur **Unterstützung und Bildung für die ärmsten Kinder Vietnams.** Inspiriert durch das asiatische Neujahr des Tigers 2022, entstand für diese Aktion die Illustrationsreihe "DAWN" (Morgendämmerung). **Der gesamte Gewinn aus allen Verkäufen mit diesen Motiven wird dabei an die Stiftung gespendet.**
+Gemeinsam mit der [LOAN Stiftung](https://loan-stiftung.de) wurde in enger Zusammenarbeit ein **Hilfsprojekt zur Unterstützung und Bildung für die ärmsten Kinder Vietnams** ins Leben gerufen. Dabei wird der **gesamte Gewinn aus allen Verkäufen einer Illustrationsreihean an die Stiftung gespendet**. Inspirert vom asiatischen Neujahr des Tigers, enstand 2022 das erste Motiv "DAWN" (Morgendämmerung), gefolgt von einer jährlich neuen Illustration. Eine Übersicht aller Produkte, die aktuell das Hilfsprojekt unterstützen, findest Du [hier](https://shop.seraphine-arts.com/search?q=dawn&options%5Bprefix%5D=last).
 
-Die Projekte der LOAN Stiftung beinhalten den Bau von Kindergärten, Grundschulen und Schlafräumen wie auch Stipendien und die finanzielle Unterstützung von Waisenkindern in den ärmsten Teilen Vietnams. In diesen abgelegen Regionen sind aufgrund des erschwerten geografischen Zugangs bislang nur sehr wenige gemeinnützige Organisationen tätig.
-Da alle Arbeit innerhalb der Stiftung ehrenamtlich erfolgt, kommen 100% der Spenden direkt bei den Kindern in Vietnam an.
+Die Projekte der LOAN Stiftung beinhalten den Bau von Kindergärten, Grundschulen und Schlafräumen wie auch die finanzielle Unterstützung von Waisenkindern in den ärmsten Teilen Vietnams. In diesen abgelegen Regionen sind aufgrund des erschwerten geografischen Zugangs bislang nur sehr wenige gemeinnützige Organisationen tätig. Da alle Arbeit innerhalb der Stiftung ehrenamtlich erfolgt, kommen 100% der Spenden direkt bei den Kindern an.
 
-Mit meiner farbenfrohen Kunst hoffe ich Menschen Glück & Inspiration geben zu können und auch darüber hinaus zu einer beständigen positiven Veränderung beizutragen.
-
-Die Motive von "DAWN" sind über das ganze Asiatische Jahr des Tigers (bis Januar 2023) verfügbar und der Gewinn aus allen Verkäufen wird vierteljährlich an die Stiftung gespendet. Eine Übersicht aller Produkte, die dieses Hilfsprojekt unterstützen, findest Du [hier](https://shop.seraphine-arts.com/search?q=dawn&options%5Bprefix%5D=last). Vielen Dank für Deine Unterstützung! 
+Mit meiner farbenfrohen Kunst hoffe ich Menschen Glück & Inspiration geben zu können und auch darüber hinaus zu einer beständigen positiven Veränderung beizutragen. **Dank eurer Unterstützung wurde 2022 eine Spendensumme von über 1.000 € erreicht. 
+Vielen Dank!**
 
 Bei Fragen zur Kooperation oder zu den Projekten, komm gerne jederzeit [per Email](mailto:seraphinearts@gmail.com) oder über Social Media auf mich zu. :)
-
-**Update Februar 2022:** Dank eurer Unterstützung wurden bereits über 340€ gesammelt und an die Stiftung gespendet. ❤️
-
-**Update Juli 2022:** Weitere 200€ haben über das DAWN Projekt ihren Weg in die Bildungs- und Hilfsprojekte der LOAN Stiftung gefunden. Vielen Dank für eure Unterstützung!
-
-**Update November 2022:** Eine weitere Spende über 271€ hat Dank eurer Unterstützung die LOAN Stiftung und ihre Hilfsprojekte erreicht. 
