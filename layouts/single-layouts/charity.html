@@ -15,7 +15,7 @@
 </div>
 
 <div class="charity-gallery">
-  {{ range .Pages.ByPublishDate.Reverse }}
+  {{ range .Pages.ByPublishDate }}
   <div class="charity-list-item">
     {{ .Scratch.Set "showDate" false}}
     {{partial "imageoverlay.html" .}}
