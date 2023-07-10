@@ -9,3 +9,5 @@ Just as the light of the sun lets the moon shine, our world reflects the good we
 Inspired by the Vietnamese Lunar Year of the Cat, the two-part set "Reflection" continues the "art for charity" project and cooperation with the [LO-ANH Foundation (LOAN Stiftung)](https://loan-stiftung.de/?lang=en) in 2023.
 
 Like before, all profits from this [collection](https://shop.seraphine-arts.com/en/collections/reflection) will be donated quarterly to the LOAN Stiftung to support children in need. 
+
+**Update July 2023:** Thank you for an amazing first six months! We were able to raise 567€ through the art for charity cooperation to support projects of the LO-ANH Foundation.
