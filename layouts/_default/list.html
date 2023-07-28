@@ -2,6 +2,7 @@
 <h1>{{ .Title | title }}</h1>
   <div class="list-gallery">
     {{ range .Pages.ByPublishDate.Reverse }}
+      {{ .Scratch.Set "numPics" "1"}}
       {{partial "imageoverlay.html" .}}
     {{ end }} 
   </div>

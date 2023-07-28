@@ -3,6 +3,13 @@
 
     <div class="single-page-content">
 
+      <div class="single-page-image">
+        {{ .Scratch.Set "width" "1080"}}
+        {{ .Scratch.Set "quality" "100"}}
+        {{ .Scratch.Set "numPics" "3"}}
+        {{- partial "attachedImage.html" . -}}
+      </div>
+
       <div class="description">
         <div>
           <h1>{{ .Title | title }}</h1>
@@ -40,11 +47,6 @@
         </div>
       </div>
 
-      <div class="single-page-image">
-        {{ .Scratch.Set "width" "1080"}}
-        {{ .Scratch.Set "quality" "100"}}
-        {{- partial "attachedImage.html" . -}}
-      </div>
     </div>
 
   </div>
