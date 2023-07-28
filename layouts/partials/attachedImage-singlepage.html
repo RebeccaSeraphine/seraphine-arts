@@ -1,0 +1,11 @@
+{{- $width := default "500" (.Scratch.Get "width") -}}
+{{- $qual := default "80" (.Scratch.Get "quality") -}}
+{{- $format := printf "%sx q%s" $width $qual -}}
+
+{{- range first 10 (.Resources.ByType "image") -}}
+
+{{ if not (in .Name "thumb")}}
+  {{- $image := .Resize $format -}}
+    <img loading="lazy" src="{{ $image.RelPermalink }}" alt="{{.Name}}" />
+  {{ end }}
+{{ end }}
