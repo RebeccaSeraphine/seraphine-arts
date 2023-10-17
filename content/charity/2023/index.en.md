@@ -11,3 +11,5 @@ Inspired by the Vietnamese Lunar Year of the Cat, the two-part set "Reflection" 
 Like before, all profits from this [collection](https://shop.seraphine-arts.com/en/collections/reflection) will be donated quarterly to the LOAN Stiftung to support children in need. 
 
 **Update July 2023:** Thank you for an amazing first six months! We were able to raise 567€ through the art for charity cooperation to support projects of the LO-ANH Foundation.
+
+**Update October 2023:** An additional 186€ have been donated to the LO-ANH Foundation. Thank you!
