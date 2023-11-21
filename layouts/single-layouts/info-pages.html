@@ -7,16 +7,16 @@
     {{ .Content }}
   </div>
   <div class="images">
-    {{ .Scratch.Set "width" "500"}}
-    {{ .Scratch.Set "quality" "80"}}
+    {{ .Scratch.Set "width" "800"}}
+    {{ .Scratch.Set "quality" "100"}}
     {{ .Scratch.Set "numPics" "3"}}
     {{- partial "attachedImage.html" . -}}
   </div>
 </div>
 
-<div class="charity-gallery">
+<div class="info-page-gallery">
   {{ range .Pages.ByPublishDate }}
-  <div class="charity-list-item">
+  <div class="info-page-list-item">
     {{ .Scratch.Set "showDate" false}}
     {{partial "imageoverlay.html" .}}
   </div>
