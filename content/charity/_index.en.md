@@ -3,7 +3,7 @@ title: "Art for Charity"
 date: 2023-01-05T14:07:56+01:00
 draft: false
 type: "single-layouts"
-layout: "charity"
+layout: "info-pages"
 menu:
   main:
     weight: 4

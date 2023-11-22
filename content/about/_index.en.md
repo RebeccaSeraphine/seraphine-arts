@@ -3,12 +3,11 @@ title: "About"
 date: 2021-02-13T12:15:44+01:00
 draft: false
 type: "single-layouts"
-layout: "about"
+layout: "info-pages"
 menu:
   main:
     weight: 5
 ---
-# About
 
 Hello wanderer and welcome to this colourful place! I am Seraphine, an artist and colouring book author from Germany who creates intricate illustrations in a contemporary style. My art is inspired by the beautiful diversity of our natural world and I hope to bring humanity and nature closer together & inspire happiness and positive change.
 
