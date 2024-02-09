@@ -1,6 +1,6 @@
 ---
 title: "Reflection - 2023"
-date: 2023-02-027T19:34:59+01:00
+date: 2023-02-02T19:34:59+01:00
 draft: false
 ---
 
@@ -10,4 +10,6 @@ Wie im Vorjahr, fließt dabei der gesamte Gewinn aus diesen [Illustrationen](htt
 
 **Update Juli 2023:** Vielen Dank für ein erfolgreiches erstes Halbjahr in dem 567€ für die Hilfsprojekte der LOAN Stiftung gesammelt wurden.
 
-**Update Oktober 2023:** Weitere 186€ haben ihren Weg in die Hilfsprojekte der LOAN Stiftung gefunden. Vielen Dank!
+**Update Oktober 2023:** Weitere 186€ haben ihren Weg in die Hilfsprojekte der LOAN Stiftung gefunden.
+
+**Update Januar 2024:** Insgesamt wurden 1075€ in 2023 an die LOAN Stiftung gespendet. Vielen Dank! ❤️
