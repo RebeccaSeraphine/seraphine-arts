@@ -15,7 +15,7 @@
 </div>
 
 <div class="info-page-gallery">
-  {{ range .Pages.ByPublishDate }}
+  {{ range .Pages.ByDate }}
   <div class="info-page-list-item">
     {{ .Scratch.Set "showDate" false}}
     {{partial "imageoverlay.html" .}}
