@@ -17,6 +17,6 @@ Working in close cooperation, the [LOAN Foundation (LOAN Stiftung)](https://loan
 
 The work of the LOAN Foundation includes the construction of kindergardens, elementary schools and boarding houses as well as educational scholarships and support for orphans in Vietnam's poorest regions, where almost no other NGOs are active because of the difficult geographical access. Every contribution goes directly and fully into the foundation's projects for children in need.
 
-Inspired by the wonders of our planet my artworks reflect the colourful beauty of our world. While I hope that my creations bring people joy and happiness, I also wish them to make a lasting difference. **With your support, we were able to raise over 1,000€ in the first year. Thank you!**
+Inspired by the wonders of our planet my artworks reflect the colourful beauty of our world. While I hope that my creations bring people joy and happiness, I also wish them to make a lasting difference. **With your support, we were able to raise over 2,000€ so far. Thank you!**
 
 If you have any questions about the cooperation, don't hesitate to [send me an email](mailto:seraphinearts@gmail.com) or contact me on social media. :)

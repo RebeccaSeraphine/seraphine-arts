@@ -15,7 +15,7 @@ Gemeinsam mit der [LOAN Stiftung](https://loan-stiftung.de) wurde in enger Zusam
 
 Die Projekte der LOAN Stiftung beinhalten den Bau von Kindergärten, Grundschulen und Schlafräumen wie auch Bildungsstipendien und die Unterstützung von Waisenkindern in den ärmsten Teilen Vietnams. In diesen abgelegen Regionen sind aufgrund des erschwerten geografischen Zugangs bislang nur sehr wenige gemeinnützige Organisationen tätig. Da alle Arbeit innerhalb der Stiftung ehrenamtlich erfolgt, kommen 100% der Spenden direkt bei den Kindern an.
 
-Mit meiner farbenfrohen Kunst hoffe ich Menschen Glück & Inspiration geben zu können und auch darüber hinaus zu einer beständigen positiven Veränderung beizutragen. **Dank eurer Unterstützung wurde im ersten Jahr bereits eine Spendensumme von über 1.000 € erreicht. 
+Mit meiner farbenfrohen Kunst hoffe ich Menschen Glück & Inspiration geben zu können und auch darüber hinaus zu einer beständigen positiven Veränderung beizutragen. **Dank eurer Unterstützung wurde bereits eine Spendensumme von über 2.000 € erreicht. 
 Vielen Dank!**
 
 Bei Fragen zur Kooperation oder zu den Projekten, komm gerne jederzeit [per Email](mailto:seraphinearts@gmail.com) oder über Social Media auf mich zu. :)
