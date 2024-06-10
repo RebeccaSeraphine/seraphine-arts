@@ -8,4 +8,4 @@ The first illustration of the two-part set “Reflection”.
 
 Just as the light of the sun lets the moon shine, our world reflects the good we do. Inspired by the Vietnamese Lunar Year of the Cat, these motifs continue the [“art for charity” project](https://seraphine-arts.com/en/charity/) and cooperation with the LOAN Foundation in 2023.
 
-All profits from this [collection](https://shop.seraphine-arts.com/en/collections/reflection) are donated to the LOAN Foundation, supporting children in need and enabling access to education. 
+All profits from this [collection]({{< ref "/shop">}}) are donated to the LOAN Foundation, supporting children in need and enabling access to education. 

@@ -6,11 +6,7 @@
     <img loading="lazy" id="welcomeimage" src="{{ $image.RelPermalink }}" alt="welcome image"/>
     <div id="welcomeimage-frame">
       <p id="welcomeimage-text">{{ i18n "home.callToAction.frame" }}</p>
-      {{ if in .Language "de" }}
-        <a id="welcomeimage-button" class="button" href="https://shop.seraphine-arts.com/collections/kunstdrucke" aria-label="button to prints shop">{{ i18n "home.callToAction.button"}}</a>
-      {{ else if in .Language "en" }}
-        <a id="welcomeimage-button" class="button" href="https://shop.seraphine-arts.com/en/collections/kunstdrucke" aria-label="button to prints shop">{{ i18n "home.callToAction.button"}}</a>
-      {{ end }}
+      <a id="welcomeimage-button" class="button" href="{{ "shop/" | relLangURL}}" aria-label="button to prints shop">{{ i18n "home.callToAction.button"}}</a>
     </div>
   </section>
 
@@ -42,11 +38,7 @@
     {{- $imageResource := resources.Get "images/fine-art-prints.jpg" -}} 
     {{ $image := $imageResource.Resize "420x q100" }}
     <img src="{{ $image.RelPermalink }}" alt="fox art print"/>
-    {{ if in .Language "de" }}
-      <a class="button" href="https://shop.seraphine-arts.com/collections/kunstdrucke" aria-label="button to gallery">{{ i18n "buttons.toprints" }}</a>
-    {{ else if in .Language "en" }}
-      <a class="button" href="https://shop.seraphine-arts.com/en/collections/kunstdrucke" aria-label="button to gallery">{{ i18n "buttons.toprints" }}</a>
-    {{ end }}
+    <a class="button" href="{{ "shop/" | relLangURL}}" aria-label="button to gallery">{{ i18n "buttons.toprints" }}</a>
   </section>
 
 
@@ -67,11 +59,7 @@
       {{ $image := $imageResource.Resize "420x q100" }}
       <img src="{{ $image.RelPermalink }}" alt="fox art print"/>
     </div>
-    {{ if in .Language "de" }}
-      <a class="button" href="https://shop.seraphine-arts.com/collections/colouring-books" aria-label="button to book shop">{{ i18n "buttons.tobooks" }}</a>
-    {{ else if in .Language "en" }}
-      <a class="button" href="https://shop.seraphine-arts.com/en/collections/colouring-books" aria-label="button to book shop">{{ i18n "buttons.tobooks" }}</a>
-    {{ end }}
+      <a class="button" href="{{ "shop/" | relLangURL}}" aria-label="button to book shop">{{ i18n "buttons.tobooks" }}</a>
   </section>
 
   <section class="landing-page-text">

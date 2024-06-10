@@ -12,15 +12,6 @@
         <p class="brand-name">Seraphine Arts</p>
       </a>
     </li>
-    {{ if in .Language "de" }}
-      <li>
-        <a href="https://shop.seraphine-arts.com/">Shop</a>
-      </li>
-    {{ else if in .Language "en" }}
-      <li>
-        <a href="https://shop.seraphine-arts.com/en">Shop</a>
-      </li>
-    {{ end }}
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
       <li>
